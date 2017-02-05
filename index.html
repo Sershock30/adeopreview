@@ -5,15 +5,44 @@
 	<title>ADEO</title>
 	<link rel="stylesheet" href="style/main.css">
 	<link rel="stylesheet" href="icomoon/style.css">
+	<script src="js/jquery.js"></script>
 </head>
 <body>
+	<script>
+			
+			$(document).ready(function(){
+				$("a").on('click', function(event) {
+					if (this.hash !== ""){
+						event.preventDefault();
+						var hash = this.hash;
+						$('html, body').animate({
+							scrollTop: $(hash).offset().top
+						}, 800, function(){
+						window.location.hash = hash;
+						});
+					}
+				});
+
+				$('a').on('click',function(){
+
+  					//Retira la clase active de los otros anchors.
+  					$('a').removeClass('active');
+
+  					//Agrega la clase active al anchor clickeado
+  					$(this).addClass('active');
+				});
+
+				//Fin de la funcion del smooth scrolling
+
+			});
+	</script>
 	<div id="wrapper">
 		<header>
 			<img class="logo" src="images/adeo-logo.png" alt="">
 			<nav class="menu">
-				<a class="menu__anchor active" href="">INICIO</a>
-				<a class="menu__anchor" href="">VALORES</a>
-				<a class="menu__anchor" href="">SERVICIOS</a>
+				<a class="menu__anchor active" href="#bienvenida">INICIO</a>
+				<a class="menu__anchor" href="#caracteristicas">VALORES</a>
+				<a class="menu__anchor" href="#imagen-areas">SERVICIOS</a>
 				<a class="menu__anchor" href="">EQUIPO</a>
 				<a class="menu__anchor" href="">PORTAFOLIO</a>
 				<a class="menu__anchor" href="">CONTACTO</a>
@@ -87,6 +116,21 @@
 			<div class="servicio">
 				<h2><div class="panel icon-cloud"></div>PANELES SOLARES</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, aspernatur iusto molestias praem.</p>
+			</div>
+
+		</div>
+
+		<div id="como-trabajamos">
+			
+			<div class="info">
+				<h1>COMO TRABAJAMOS</h1>
+				<div class="info__borde"></div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo suscipit placeat excepturi velit quos? Assumenda dolor atque minima sint velit aperiam. In officiis incidunt voluptatibus laborum illum vitae. Officiis, quis.</p>
+
+				<div class="subsecciones">
+					.subseccion
+				</div>
+
 			</div>
 
 		</div>
