@@ -383,3 +383,94 @@ header .menu .menu__anchor:hover{
 
 /*******************************************************************************
 
+/*Inicia seccion de como trabajamos*/
+
+#como-trabajamos{
+	position:relative; 
+	min-height:100vh;
+	background-image:url(../images/fondo-notas.jpg);  
+}
+
+.informacion{
+	box-sizing:border-box;
+	padding: 30px; 
+	position:absolute;
+	top:50%;
+	margin-left:100px; 
+	transform:translateY(-50%);     
+	background-color:rgba(255, 255, 255, 0.9); 
+	width:900px; 
+	height:350px; 
+}
+
+.informacion h1{	
+	margin-top:20px;  
+	color:#555;
+	font-family:arial;
+	font-weight:400;  
+}
+
+.informacion p{
+	font-family:arial; 
+	margin-top:30px; 
+	color:#777; 
+}
+
+.informacion__borde{
+	position:absolute;
+	width: 60px;
+	height: 3px;
+	background-color:#2BB4F3;
+	left:225px;   
+}
+
+.subsecciones{
+	margin-top:30px; 
+	width: 100%;
+	height: 190px; 
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+	/*outline:1px solid black;*/   
+}
+
+
+.subseccion{
+	width: 270px;
+	height: 190px;
+
+
+	/*outline:1px solid red;*/ 
+}
+
+.check{ 
+	position:absolute;
+	text-align:center;
+	line-height:45px;
+	color:#444;      
+	width: 40px;
+	height: 40px; 
+	font-size:25px;  
+	border-radius:50%; 
+	background-color:white; 
+}
+
+.subseccion h3{
+	font-family:arial;
+	font-weight:400;
+	color:#555;  
+	position:absolute; 
+	margin-left:50px;
+	margin-top:10px;    
+}
+
+.subseccion p{
+	color:#777;  
+	margin-left:50px; 
+	margin-top:40px; 
+}
+
+/*Fin de la seccion de como trabajamos*/
+
+/*******************************************************************************
