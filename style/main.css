@@ -1,26 +1,196 @@
+/*Nota inicial, se usa metodologia de clases de heredacion
+esto con el proposito de mantener el orden y no perderse
+a la hora de realizar cambios
+
+--- Tambien se maneja outline para el proceso de maquetado, por lo que 
+se comentan los atributos de estos mismos.
+
+
+*******************************************************************
+
+
+				INICIO DEL ESTILO DE LA PAGINA DE ADEO
+*/
+
+
+/*Estilos generales.*/
 *{
 	padding: 0;
 	margin: 0;
 }
 
-.servicio{
+#wrapper{
+	width: 100%;
+}
+
+/********************************************************************************/
+
+/* Comienza el estilo del navbar de la pagina */
+ 
+header{
 	position:relative; 
 	width: 100%;
-	min-height:100vh;
+	height: 60px;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content:space-between; 
+
+
+	/*outline:1px solid green;*/  
 }
 
-.separacionserv{
+header .menu{
+	position:absolute;
+	right:120px; 
+
+
+	/*outline:1px solid red; */
+}
+
+header .logo{
+	margin-top:-27px; 
+	margin-left:100px; 
+	height: 200%;
+	width: 170px;
+}
+
+header .menu .menu__anchor{
+	line-height:60px; 
+	color:#666; 
+	text-decoration:none; 
+	margin-right:40px;
+	font-family:arial;
+	font-size:14px;   
+}
+
+.active{
+	border-bottom:3px solid #2BB4F3;
+}
+
+/*Fin del estilo del navbar*/
+
+/********************************************************************************/
+
+/*Inicio del estilo de la seccion de bienvenida*/
+
+#bienvenida{
+	position:relative; 
+	min-height: 100vh;
+	background-image:url(../images/fondo_index.jpg); 
+	background-size:100%; 
+}
+
+.bienvenida__titulo{
+	position:absolute; 
+	font-family:arial;
+	font-weight:800; 
+	font-size:40px; 
+	letter-spacing:3px;  
+	color:white;
+	text-align:right;  
+	width:700px;
+	right:150px;
+	top: 50%;
+	transform:translateY(-50%);  
+}
+
+.bienvenida__boton{
+	position:absolute; 
+	box-sizing:border-box;
+	padding:20px 45px;  
+	text-decoration:none;
+	font-family:arial;
+	font-weight:700; 
+	font-size:18px; 
+
+	/*outline:1px solid red;*/   
+}
+
+.bienvenida__cotizar{
+	right:355px;  
+	top: 66%;
+	transform:translateY(-50%);
+	color:#666;
+	background-color:white;  
+}
+
+.bienvenida__contacto{
+	right:150px;
+	top: 66%;
+	transform:translateY(-50%);
+	color:white; 
+	background-color:#444;
+}
+
+
+/*Fin del estilo de la seccion de inicio */
+
+/********************************************************************************/
+
+/*Inicio del estilo de la seccion de caracterisitcas*/
+
+
+#caracteristicas{
+	height: 600px;
 	width: 100%;
-	height: 80px;
+	background-color:white;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;   
 }
 
-.servicio .halfway{
-	outline:1px solid red;
-	/*margin-top:50%;
-	transform: translateY(-50%); */
-	height:100%;  
-	width:500px; 
+.caracterisitcas__caracteristica{
+	cursor:pointer;  
+	margin-top:200px; 
+	position:relative;
+	height:170px;
+	width: 400px;
+	box-sizing:border-box;
+	padding:27px;
+	background-color:#F6EBEB;  
 }
+
+.caracterisitcas__caracteristica img{
+	position:absolute;
+	background-color:#777; 
+	outline:none; 
+	width: 60px;
+	height: 60px; 
+	top: -30px;
+	border-radius:50%;
+	border:4px solid white;  
+}
+
+.caracterisitcas__caracteristica h2{
+	margin-top:10px;	  
+	font-size:20px;
+	font-family:arial;
+	letter-spacing:1.1px;   
+	color:#555; 
+}
+
+.caracterisitcas__caracteristica .caracteristicas__borde{
+	position:absolute;
+	transition:1s;  
+	width: 60px;
+	left: 190px;
+	top:68px; 
+	background-color:white;
+	height: 3px; 
+}
+
+.caracterisitcas__caracteristica p{
+	margin-top:20px; 
+	font-family:arial;
+	line-height:24px;  
+	color:#777; 
+}
+
+.caracterisitcas__caracteristica:hover > .caracteristicas__borde{
+	left:30px;
+	background-color:#2BB4F3;  
+}
+
+/*Fin del estilo de la seccion de caracteristicas*/
+
+/********************************************************************************/
