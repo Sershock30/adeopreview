@@ -215,3 +215,112 @@ header .menu .menu__anchor{
 /*Fin de la seccion de las areas (IMAGEN CON ICONOS)*/
 
 /*******************************************************************************
+
+/*Inicio de la seccion de servicios*/
+
+
+#servicios{
+	position:relative; 
+	min-height:100vh;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;  	 
+}
+
+#servicios .servicios__espacio{
+	width: 100%;
+	height:200px;
+
+
+	/*outline:1px solid black;*/  
+}
+
+#servicios img{
+	position:absolute; 
+	width: 300px;
+	height: 240px;
+	left:50%;
+	transform:translateX(-210px);  
+
+
+	/*outline:1px solid black;*/ 
+}
+
+#servicios h1{
+	font-family:arial; 
+	position:absolute;
+	left:50%; 
+	transform:translateX(-50%);
+	top:92px;
+	color:#2BB4F3;   
+}
+
+#servicios .servicios__linea{
+	position:absolute;
+	left:50%;
+	transform:translateX(-40px);
+	top:140px;   
+	width: 70px;
+	height: 4px;
+	background-color:#999; 
+}
+
+#servicios .servicio{
+	margin-top:20px; 
+	width: 300px;
+	box-sizing:border-box;
+	padding:10px;  
+
+	/*outline:1px solid black;*/ 
+}
+
+#servicios .servicio h2{
+	font-size:22px; 
+	color:#555;
+}
+
+#servicios .servicio div{
+	font-size:25px;
+	width: 60px;
+	height: 60px;
+	line-height:60px;
+	text-align:center;
+	color:white;
+	margin-right:7px; 
+	border-radius:50%;   
+	display:inline-block;   
+}
+
+.arqui{
+	background-color:#D07CD5; 
+}
+
+.conta{
+	background-color:#931D1D;
+}
+
+.dise{
+	background-color:#E64418; 
+}
+
+.elect{
+	background-color:#E3EA1D;
+}
+
+.info{
+	background-color:#120C8A; 
+}
+
+.ilu{
+	background-color:#F6A444; 
+}
+
+.panel{
+	font-weight:900; 
+	background-color:#208C37;
+}
+
+/*Fin de la seccion de servicios*/
+
+/*******************************************************************************
+
