@@ -23,10 +23,10 @@
 					}
 				});
 
-				$('a').on('click',function(){
+				$('.menu__anchor').on('click',function(){
 
   					//Retira la clase active de los otros anchors.
-  					$('a').removeClass('active');
+  					$('.menu__anchor').removeClass('active');
 
   					//Agrega la clase active al anchor clickeado
   					$(this).addClass('active');
@@ -81,7 +81,9 @@
 
 		</div>
 
-		<div id="imagen-areas"></div>
+		<div id="imagen-areas">
+			<a href="#servicios" class="bajar" id="bajar"><p>v</p></a>
+		</div>
 
 		<div id="servicios">
 			

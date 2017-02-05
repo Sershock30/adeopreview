@@ -216,6 +216,52 @@ header .menu .menu__anchor:hover{
 	height: 100vh;
 	background-size:100% 100%; 
 	background-image:url(../images/servicios.png); 
+	position:relative; 
+}
+
+.bajar{
+	transition:.5s; 
+	text-align:center;
+	line-height:40px;  
+	position:absolute;
+	width: 30px;;
+	height: 30px;
+	margin-left:50%;
+	bottom: 40px; 
+	font-family: 'Roboto Mono', monospace;
+	font-size:27px;
+	font-weight:900; 
+	padding:10px;
+	color:black; 
+	border-radius:5px; 
+	background-color:rgba(255,255,255, 0.6);
+	text-decoration:none;
+	display:block;
+	animation: move 2s infinite;
+	transform:translateX(-50%);
+
+	
+}
+
+.bajar p{
+	position: absolute; 
+	left:35%;
+	top:10%; 
+	text-decoration:none; 
+	color:black;
+
+	
+}
+
+.bajar:hover{
+	background-color:rgba(255,255,255, 1);
+}
+
+@keyframes move{
+	0%{transform: translate(-50%,15px);}
+	50%{transform: translate(-50%,0px);}
+	70%{transform: translate(-50%, 0px);}
+	100%{transform:translate(-50%,15px); }
 }
 
 /*Fin de la seccion de las areas (IMAGEN CON ICONOS)*/
