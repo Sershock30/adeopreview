@@ -291,6 +291,12 @@ header .menu .menu__anchor{
 	display:inline-block;   
 }
 
+#servicios .servicio p{
+	margin-top:5px;
+	font-family:arial;  
+	color:#777; 
+}
+
 .arqui{
 	background-color:#D07CD5; 
 }
