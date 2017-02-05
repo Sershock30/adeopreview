@@ -1,4 +1,4 @@
-/*Nota inicial, se usa metodologia de clases de heredacion
+Nota inicial, se usa metodologia de clases de heredacion
 esto con el proposito de mantener el orden y no perderse
 a la hora de realizar cambios
 
@@ -198,3 +198,15 @@ header .menu .menu__anchor{
 /*Fin del estilo de la seccion de caracteristicas*/
 
 /********************************************************************************/
+
+/*Inicio de la seccion de las areas (IMAGEN CON ICONOS)*/
+
+#imagen-areas{
+	height: 100vh;
+	background-size:100% 100%; 
+	background-image:url(../images/servicios.png); 
+}
+
+/*Fin de la seccion de las areas (IMAGEN CON ICONOS)*/
+
+/*******************************************************************************
