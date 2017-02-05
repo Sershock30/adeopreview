@@ -151,6 +151,7 @@ header .menu .menu__anchor{
 }
 
 .caracterisitcas__caracteristica .img{
+	transition:1s; 
 	position:absolute;
 	background-color:#777; 
 	outline:none; 
@@ -193,6 +194,10 @@ header .menu .menu__anchor{
 .caracterisitcas__caracteristica:hover > .caracteristicas__borde{
 	left:30px;
 	background-color:#2BB4F3;  
+}
+
+.caracterisitcas__caracteristica:hover > .img{
+	background-color:#2BB4F3; 
 }
 
 /*Fin del estilo de la seccion de caracteristicas*/
