@@ -275,7 +275,8 @@ header .menu .menu__anchor{
 }
 
 #servicios .servicio h2{
-	font-size:22px; 
+	font-size:19px;
+	font-family:arial;  
 	color:#555;
 }
 
