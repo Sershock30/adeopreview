@@ -592,15 +592,17 @@ header .menu .menu__anchor:hover{
 .persona img{
 	margin-top:-20px; 
 	width: 100px;
+	height:130px; 
 	border:5px solid #A9A9A9;
-	margin-left:20px;  
+	margin-left:20px;
+	background-color: white/* #E7E1E1*/;  
 }
 
 .persona h4{
 	position:absolute;
 	padding:10px 20px 20px 20px;  
 	background-color:white;
-	width: 130px; 
+	width: 160px; 
 	top: 20px;
 	left: 130px; 
 	color:#929191;  
@@ -610,7 +612,7 @@ header .menu .menu__anchor:hover{
 	position:absolute; 
 	width: 0;
 	height: 0;
-	left:163px;
+	left:193px;
 	top:0px;  
 	border-left: 7px solid transparent;
 	border-right: 10px solid transparent;
