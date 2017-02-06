@@ -533,6 +533,7 @@ header .menu .menu__anchor:hover{
 	width: 100%;
 	position:relative;
   	overflow:hidden;
+  	padding-bottom:20px; 
 }
 
 .content{
@@ -545,6 +546,11 @@ header .menu .menu__anchor:hover{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-around;   
+}
+
+.content section h1{
+	font-family:arial; 
+	position:absolute; 
 }
 
 #btn-prev, #btn-next{
@@ -582,7 +588,7 @@ header .menu .menu__anchor:hover{
 }
 
 .persona{
-	margin-top:30px; 
+	margin-top:60px; 
 	width: 500px;
 	height: 200px;
 	background-color:#E7E1E1; 
