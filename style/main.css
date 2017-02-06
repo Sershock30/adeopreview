@@ -779,8 +779,9 @@ header .menu .menu__anchor:hover{
 	height: 100%;
 }
 
-.portafolio__galeria .image-holder p{
-	transition:1s; 
+.portafolio__galeria .image-holder a{
+	text-decoration:none; 
+	transition:0.5s; 
 	position:absolute; 
 	width: 50px;
 	height: 50px;
@@ -793,17 +794,22 @@ header .menu .menu__anchor:hover{
 	display:none;     
 }
 
-.portafolio__galeria .image-holder:hover > p{
+.portafolio__galeria .image-holder:hover > a{
 	display:block; 
 }
 
-.portafolio__galeria .image-holder p:nth-child(2){
+.portafolio__galeria .image-holder a:hover{
+	background-color:#666;
+	color:white;  
+}
+
+.portafolio__galeria .image-holder a:nth-child(2){
 	left:155px; 
 	top:50%;
 	transform:translateY(-50%);  
 }
 
-.portafolio__galeria .image-holder p:first-child{
+.portafolio__galeria .image-holder a:first-child{
 	left:95px; 
 	top:50%;
 	transform:translateY(-50%); 
