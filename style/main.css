@@ -533,7 +533,7 @@ header .menu .menu__anchor:hover{
 	width: 100%;
 	position:relative;
   	overflow:hidden;
-  	padding-bottom:20px; 
+  	margin-bottom:50px; 
 }
 
 .content{
@@ -704,4 +704,111 @@ header .menu .menu__anchor:hover{
 
 /*Fin de la seccion de Nuestro Equipo*/
 
-/*******************************************************************************
+/*******************************************************************************\
+
+/*Inicia la seccion del portafolio*/
+
+
+#portafolio{
+	position:relative; 
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;  	 
+}
+
+#portafolio .inner-portafolio{
+	width: 100%;
+	height:200px;
+
+
+	/*outline:1px solid black;*/  
+}
+
+#portafolio img{
+	position:absolute; 
+	width: 300px;
+	height: 240px;
+	left:50%;
+	transform:translateX(-310px);  
+
+
+	/*outline:1px solid black;*/ 
+}
+
+#portafolio h1{
+	font-family:arial; 
+	position:absolute;
+	left:50%; 
+	transform:translateX(-50%);
+	top:92px;
+	color:#2BB4F3;   
+}
+
+#portafolio .portafolio__linea{
+	position:absolute;
+	left:50%;
+	transform:translateX(30px);
+	top:140px;   
+	width: 70px;
+	height: 4px;
+	background-color:#999; 
+}
+
+.portafolio__galeria{
+	width: 90%;
+	margin:auto; 
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding-bottom:50px;    
+}
+
+.portafolio__galeria .image-holder{ 
+	margin-top:5px; 
+	width: 300px;
+	height: 190px;
+	background-color:#999;
+	position:relative;  
+	
+
+	/*outline:1px solid red;*/
+}
+
+.portafolio__galeria .image-holder img{
+	width: 100%;
+	height: 100%;
+}
+
+.portafolio__galeria .image-holder p{
+	transition:1s; 
+	position:absolute; 
+	width: 50px;
+	height: 50px;
+	background-color:white;
+	border-radius:50%;
+	text-align:center;
+	line-height:55px;
+	color:#666;
+
+	display:none;     
+}
+
+.portafolio__galeria .image-holder:hover > p{
+	display:block; 
+}
+
+.portafolio__galeria .image-holder p:nth-child(2){
+	left:155px; 
+	top:50%;
+	transform:translateY(-50%);  
+}
+
+.portafolio__galeria .image-holder p:first-child{
+	left:95px; 
+	top:50%;
+	transform:translateY(-50%); 
+}
+
+/*Fin de la seccion del portafolio*/
+
+/*******************************************************************************\

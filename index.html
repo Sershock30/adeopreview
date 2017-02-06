@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>ADEO</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style/main.css">
 	<link rel="stylesheet" href="icomoon/style.css">
 	<script src="js/jquery.js"></script>
@@ -37,14 +38,14 @@
 			});
 	</script>
 	<div id="wrapper">
-		<header>
+		<header class="">
 			<img class="logo" src="images/adeo-logo.png" alt="">
 			<nav class="menu">
 				<a class="menu__anchor active" href="#bienvenida">INICIO</a>
 				<a class="menu__anchor" href="#caracteristicas">VALORES</a>
 				<a class="menu__anchor" href="#imagen-areas">SERVICIOS</a>
 				<a class="menu__anchor" href="#nuestro-equipo">EQUIPO</a>
-				<a class="menu__anchor" href="">PORTAFOLIO</a>
+				<a class="menu__anchor" href="#portafolio">PORTAFOLIO</a>
 				<a class="menu__anchor" href="">CONTACTO</a>
 			</nav>
 		</header>
@@ -160,7 +161,7 @@
 
 		<div id="c-slider">
 			<div class="content">
-				<section>
+				<section id="informatica">
 					<h1>Inform&aacute;tica</h1>
 					<div class="persona">
 						<img src="images/equipo/sergio.jpg" alt="">
@@ -199,7 +200,7 @@
 					</div>
 
 				</section>
-				<section>
+				<section id="electricidad">
 					<h1>Electricidad</h1>
 
 					<div class="persona">
@@ -227,7 +228,7 @@
 					</div>
 
 				</section>
-				<section>
+				<section id="arquitectura">
 					<h1>Arquitectura</h1>
 
 					<div class="persona">
@@ -256,7 +257,7 @@
 
 				</section>
 
-				<section>
+				<section id="contabilidad">
 					<h1>Contabilidad</h1>
 					<div class="persona">
 						<img src="images/equipo/danny.jpg" alt="">
@@ -271,7 +272,7 @@
 					</div>
 
 				</section>
-				<section>
+				<section id="diseno">
 					<h1>Dise&#241;o</h1>
 
 					<div class="persona">
@@ -292,9 +293,46 @@
 			</div>
 		</div>
 
-		<!-- <div class="portafolio">
-			<img src="images/manosadeo.png" alt=""><h1>NUESTRO EQUIPO</h1><div class="equipo__linea"></div>
-		</div> -->
+		<div id="portafolio">
+			<div class="inner-portafolio">
+				<img src="images/manosadeo.png" alt=""><h1>NUESTRO PORTAFOLIO</h1><div class="portafolio__linea"></div>
+			</div>
+		</div>
+
+		<div class="portafolio__galeria">
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="images/fondo_index.jpg" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+			<div class="image-holder">
+				<p><span class="icon-plus"></span></p><p><span class="icon-chain"></span></p>
+				<img src="" alt="">
+			</div>
+		</div>
 
 	</div>
 	<script src="js/slider.js"></script>
