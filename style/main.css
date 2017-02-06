@@ -83,7 +83,8 @@ header .menu .menu__anchor:hover{
 	position:relative; 
 	min-height: 100vh;
 	background-image:url(../images/fondo_index.jpg); 
-	background-size:100%; 
+	background-size:100% 100%;
+	background-repeat:no-repeat;  
 }
 
 .bienvenida__titulo{
@@ -137,7 +138,7 @@ header .menu .menu__anchor:hover{
 
 
 #caracteristicas{
-	min-height: 600px;
+	min-height: 100vh;
 	width: 100%;
 	background-color:white;
 	display:flex;
@@ -147,7 +148,8 @@ header .menu .menu__anchor:hover{
 
 .caracterisitcas__caracteristica{
 	cursor:pointer;  
-	margin-top:200px; 
+	margin-top:200px;
+	margin-bottom:40px;  
 	position:relative;
 	height:170px;
 	width: 400px;
@@ -374,8 +376,7 @@ header .menu .menu__anchor:hover{
 	background-color:#F6A444; 
 }
 
-.panel{
-	font-weight:900; 
+.panel{ 
 	background-color:#208C37;
 }
 
@@ -472,5 +473,223 @@ header .menu .menu__anchor:hover{
 }
 
 /*Fin de la seccion de como trabajamos*/
+
+/*******************************************************************************
+
+/*Inico de la seccion de Nuestro Equipo*/
+
+#nuestro-equipo{
+	position:relative; 
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;  	 
+}
+
+#nuestro-equipo .equipo__espacio{
+	width: 100%;
+	height:200px;
+
+
+	/*outline:1px solid black;*/  
+}
+
+#nuestro-equipo img{
+	position:absolute; 
+	width: 300px;
+	height: 240px;
+	left:50%;
+	transform:translateX(-250px);  
+
+
+	/*outline:1px solid black;*/ 
+}
+
+#nuestro-equipo h1{
+	font-family:arial; 
+	position:absolute;
+	left:50%; 
+	transform:translateX(-50%);
+	top:92px;
+	color:#2BB4F3;   
+}
+
+#nuestro-equipo .equipo__linea{
+	position:absolute;
+	left:50%;
+	transform:translateX(-40px);
+	top:140px;   
+	width: 70px;
+	height: 4px;
+	background-color:#999; 
+}
+
+#c-slider{ 
+	min-height:500px;  
+	margin:auto;
+	padding-top:10px; 
+	width: 100%;
+	position:relative;
+  	overflow:hidden;
+}
+
+.content{
+	display:flex;
+	width: 300%; 
+}
+
+.content section{
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;   
+}
+
+#btn-prev, #btn-next{
+	color:black; 
+	width: 40px;
+	height: 40px;
+	background-color:rgba(255,255,255,0.6);
+	position:absolute;
+	top:50%;
+	transform: translateY(-50%); 
+	line-height:38px;
+	font-size:30px;
+	font-family: monospace;
+	text-align:center;
+	border-radius:50%; 
+	cursor:pointer;      
+}
+
+/*section img{
+	width: 100%;
+	height: 450px;
+}*/
+
+#btn-prev{
+	left:10px;
+}
+
+#btn-next{
+	right: 10px;
+}
+
+#btn-prev:hover , #btn-next:hover{
+	transition:1s; 
+	background-color:white; 
+}
+
+.persona{
+	margin-top:30px; 
+	width: 500px;
+	height: 200px;
+	background-color:#E7E1E1; 
+	position:relative;
+
+	/*outline:1px solid red;*/ 
+}
+
+.persona img{
+	margin-top:-20px; 
+	width: 100px;
+	border:5px solid #A9A9A9;
+	margin-left:20px;  
+}
+
+.persona h4{
+	position:absolute;
+	padding:10px 20px 20px 20px;  
+	background-color:white; 
+	top: 20px;
+	left: 130px; 
+	color:#929191;  
+}
+
+.persona .triangulo1{
+	position:absolute; 
+	width: 0;
+	height: 0;
+	left:150px;
+	top:0px;  
+	border-left: 7px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 50px solid white;
+}
+
+.persona h5{
+	position:absolute;
+	top: 60px;
+	width:67px; 
+	left: 130px;
+	padding:10px 40px 10px 20px; 
+	background-color:#DDD8D8;
+	color:#8C8888; 
+}	
+
+.persona .triangulo2{
+	position:absolute; 
+	width: 0;
+	height: 0;
+	left:123px;
+	top:0px;  
+	border-left: 5px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 30px solid #DDD8D8;
+}
+
+.persona p{
+	position:absolute;
+	width: 300px;
+	left:150px;
+	top:110px;    
+	color:#777; 
+}
+
+.persona .area{
+	position:absolute;
+	width: 40px;
+	height: 40px;
+	border-radius:50%;
+	top: 100px;
+	left:50px; 
+	line-height:40px;
+	color:white;
+	text-align:center;
+	font-size:18px;     
+  
+}
+
+/*
+	
+----------arqui{
+	background-color:#D07CD5; 
+}
+
+.---------conta{
+	background-color:#931D1D;
+}
+
+.---------dise{
+	background-color:#E64418; 
+}
+
+.elect{
+	background-color:#E3EA1D;
+}
+
+.---------info{
+	background-color:#120C8A; 
+}
+
+.ilu{
+	background-color:#F6A444; 
+}
+
+.panel{ 
+	background-color:#208C37;
+}
+
+*/
+
+/*Fin de la seccion de Nuestro Equipo*/
 
 /*******************************************************************************
