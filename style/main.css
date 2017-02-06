@@ -83,7 +83,7 @@ header .menu .menu__anchor:hover{
 #bienvenida{
 	position:relative; 
 	min-height: 100vh;
-	background-image:url(../images/fondo_index.jpg); 
+	background-image:url(../images/Manosprincipal.jpg); 
 	background-size:100% 100%;
 	background-repeat:no-repeat;  
 }
@@ -392,7 +392,8 @@ header .menu .menu__anchor:hover{
 #como-trabajamos{
 	position:relative; 
 	min-height:100vh;
-	background-image:url(../images/fondo-notas.jpg);  
+	background-image:url(../images/Comotrabajamos.jpg);
+	background-size:100% 100%;   
 }
 
 .informacion{
@@ -542,15 +543,18 @@ header .menu .menu__anchor:hover{
 }
 
 .content section{
+	box-sizing:border-box;
+	padding:20px;  
 	width: 100%;
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:space-around;   
+	justify-content:space-around;
+	background-size:100% 100%;    
 }
 
 .content section h1{
 	font-family:arial; 
-	position:absolute; 
+	position:absolute;  
 }
 
 #btn-prev, #btn-next{
@@ -668,6 +672,18 @@ header .menu .menu__anchor:hover{
 	text-align:center;
 	font-size:18px;     
   
+}
+
+#informatica{
+	background-image:url(../images/info.jpg); 
+}
+
+#electricidad{
+	background-image:url(../images/paneles.jpg);
+}
+
+#arquitectura{
+	background-image:url(../images/arqui.jpg);
 }
 
 /*
