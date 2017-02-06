@@ -42,7 +42,7 @@ header{
 }
 
 header .menu{
-	position:absolute;
+	position:relative;
 	right:120px; 
 
 
@@ -72,6 +72,7 @@ header .menu .menu__anchor:hover{
 .active{
 	border-bottom:3px solid #2BB4F3;
 }
+
 
 /*Fin del estilo del navbar*/
 
