@@ -233,8 +233,8 @@ header .menu .menu__anchor:hover{
 	text-align:center;
 	line-height:40px;
 	position:absolute;
-	width: 30px;;
-	height: 30px;
+	width: 40px;;
+	height: 40px;
 	margin-left:50%;
 	bottom: 40px;
 	font-family: 'Roboto Mono', monospace;
@@ -254,12 +254,11 @@ header .menu .menu__anchor:hover{
 
 .bajar p{
 	position: absolute;
-	left:35%;
-	top:10%;
+	line-height:20px;
+	left:50%;
+	transform:translateX(-50%);   
 	text-decoration:none;
 	color:black;
-
-
 }
 
 .bajar:hover{
