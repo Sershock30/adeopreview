@@ -115,8 +115,15 @@ header .menu .menu__anchor:hover{
 	font-family:arial;
 	font-weight:700;
 	font-size:18px;
-
 	/*outline:1px solid red;*/
+}
+
+#bienvenida a{
+	text-decoration:none; 
+}
+
+#bienvenida a:hover{
+	background-color:#444;
 }
 
 .bienvenida__cotizar{
@@ -1008,7 +1015,7 @@ header .menu .menu__anchor:hover{
 	right:10px; 
   	max-width: 400px;
   	width: 100%;
-  	margin: 0 auto; 
+  	margin: auto; 
   	position: relative;
 }
 
@@ -1036,7 +1043,6 @@ header .menu .menu__anchor:hover{
 }
 
 fieldset {
- 	border: medium none !important;
  	margin: 0 0 10px;
  	min-width: 100%;
  	padding: 0;
@@ -1060,8 +1066,6 @@ fieldset {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-  	-webkit-transition: border-color 0.3s ease-in-out;
-  	-moz-transition: border-color 0.3s ease-in-out;
   	transition: border-color 0.3s ease-in-out;
   	border: 1px solid #aaa;
   	background-color:#F5FBF5; 
@@ -1086,8 +1090,6 @@ fieldset {
 
 #contact button[type="submit"]:hover {
   	background: #43A047;
-  	-webkit-transition: background 0.3s ease-in-out;
-  	-moz-transition: background 0.3s ease-in-out;
   	transition: background-color 0.3s ease-in-out;
 }
 
