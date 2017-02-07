@@ -746,8 +746,8 @@ header .menu .menu__anchor:hover{
 	height: 240px;
 	left:50%;
 	transform:translateX(-310px);  
-
-
+	z-index:-999;
+	
 	/*outline:1px solid black;*/ 
 }
 
@@ -768,6 +768,26 @@ header .menu .menu__anchor:hover{
 	width: 70px;
 	height: 4px;
 	background-color:#999; 
+}
+
+.portafolio__secciones{
+	margin-bottom:50px; 
+}
+
+.portafolio__secciones a{
+	/*float:right;*/
+	margin:0 10px;
+	font-size:15px;  
+	color:#333;
+	text-decoration:none;
+	font-family:arial;  
+	padding:10px 20px; 
+	background-color:#E5E1E1; 
+}
+
+.portafolio__secciones a:hover{
+	background-color:#3F3A7E;
+	color:white;  
 }
 
 .portafolio__galeria{
@@ -832,5 +852,17 @@ header .menu .menu__anchor:hover{
 }
 
 /*Fin de la seccion del portafolio*/
+
+/*******************************************************************************\
+
+/*Inicio de la seccion de Impulsando su empresa*/
+
+#impulsando{
+	min-height:100vh;
+	position:relative;
+	background-image:url();  
+}
+
+/*Fin de la seccion de Impulsando su empresa*/
 
 /*******************************************************************************\
