@@ -615,7 +615,7 @@ header .menu .menu__anchor:hover{
 	background-color:white;
 	width: 200px;
 	top: 20px;
-	left: 130px;
+	left: 120px;
 	color:#929191;
 }
 
@@ -634,7 +634,7 @@ header .menu .menu__anchor:hover{
 	position:absolute;
 	top: 60px;
 	width:127px;
-	left: 130px;
+	left: 120px;
 	padding:10px 40px 10px 20px;
 	background-color:#DDD8D8;
 	color:#8C8888;
