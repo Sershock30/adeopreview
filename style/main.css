@@ -749,7 +749,7 @@ header .menu .menu__anchor:hover{
 	width: 300px;
 	height: 240px;
 	left:50%;
-	transform:translateX(-310px);
+	transform:translateX(-330px);
 	z-index:-999;
 
 	/*outline:1px solid black;*/
@@ -760,7 +760,7 @@ header .menu .menu__anchor:hover{
 	position:absolute;
 	left:50%;
 	transform:translateX(-50%);
-	top:92px;
+	top:72px;
 	color:#2BB4F3;
 }
 
