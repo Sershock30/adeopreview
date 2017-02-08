@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>ADEO</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>ADEO Soluciones</title>
 	<link rel="stylesheet" href="style/main.css">
 	<link rel="stylesheet" href="icomoon/style.css">
-	<script src="js/jquery.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
 	<script>
@@ -38,18 +40,27 @@
 			});
 	</script>
 	<div id="wrapper">
-		<header class="">
-			<img class="logo" src="images/adeo-logo.png" alt="">
-			<nav class="menu">
-				<a class="menu__anchor active" href="#bienvenida">INICIO</a>
-				<a class="menu__anchor" href="#caracteristicas">VALORES</a>
-				<a class="menu__anchor" href="#imagen-areas">SERVICIOS</a>
-				<a class="menu__anchor" href="#nuestro-equipo">EQUIPO</a>
-				<a class="menu__anchor" href="#portafolio">PORTAFOLIO</a>
-				<a class="menu__anchor" href="#contacto">CONTACTO</a>
-			</nav>
+		<header id="main-header">
+			<div class="navbar navbar-default navbar-fat navbar-clean" style="opacity: 1; top: 0px; position: fixed;">
+				<div class="container-fluid">
+					<div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar b1"></span> <span class="icon-bar b2"></span> <span class="icon-bar b3"></span> </button>
+						<a class="navbar-brand" href="#">
+							<img class="logo" src="images/adeo-logo.png" alt="">
+						</a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul id="main-nav" class="nav navbar-nav navbar-right">
+							<li><a class="menu__anchor active" href="#bienvenida"><span>INICIO</span></a></li>
+							<li><a class="menu__anchor" href="#caracteristicas"><span>VALORES</span></a></li>
+							<li><a class="menu__anchor" href="#imagen-areas"><span>SERVICIOS</span></a></li>
+							<li><a class="menu__anchor" href="#nuestro-equipo"><span>EQUIPO</span></a></li>
+							<li><a class="menu__anchor" href="#portafolio"><span>PORTAFOLIO</span></a></li>
+							<li><a class="menu__anchor" href="#contacto"><span>CONTACTO</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</header>
-
 		<div id="bienvenida">
 			<h1 class="bienvenida__titulo">SOLUCIONES AL ALCANCE DE TU MANO</h1>
 
@@ -369,7 +380,7 @@
 		<div class="partners__titulo">
 				<img src="images/manosadeo.png" alt=""><h1>NUESTROS PARTNERS</h1><div class="portafolio__linea"></div>
 			</div>
-	
+
 		<div id="partners">
 
 			<div class="partner"><img src="" alt=""></div>
@@ -377,7 +388,7 @@
 		</div>
 
 		<div id="contacto">
-			<div class="innerarea">  
+			<div class="innerarea">
 			  	<form id="contact" action="" method="post">
 			    	<h4>Contactanos</h4>
 			    	<fieldset>
@@ -399,7 +410,7 @@
 			</div>
 		</div>
 
-		
+
 		<footer>
 			<div class="footer__section">
 				<h1>ADEO Soluciones</h1>
@@ -410,19 +421,19 @@
 				<a href="" class="icon icon-sphere"></a>
 			</div>
 			<div class="footer__section dir">
-				
+
 				<h2>DIRECCI&Oacute;N</h2>
 				<p class="dir">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<p class="correo-adeo"><span class="icon-mail-envelope-closed"></span> info@adeosoluciones.com</p>
 
 				<p><span class="icon-phone"></span>+508 8330-8066 <br> <span class="tel2">+506 2254-7230</span></p>
-				
+
 			</div>
 			<div class="footer__section terms" >
 				<p>Terms & Conditions <br> Privacy Policy</p>
 			</div>
 			<div class="footer__section mapa">
-				
+
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2779.101013966906!2d-84.10431968750916!3d9.913763237854589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0fccb03e92aa1%3A0x23b164789451b262!2sAv+44%2C+San+Jos%C3%A9%2C+Costa+Rica!5e0!3m2!1ses!2ses!4v1486452339516" width="450" height="290" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 			</div>

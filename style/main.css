@@ -11,7 +11,7 @@ se comentan los atributos de estos mismos.
 
 				INICIO DEL ESTILO DE LA PAGINA DE ADEO
 */
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Noto+Sans:400,700|Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,300,400,700');
 /*Estilos generales.*/
 *{
 	padding: 0;
@@ -23,9 +23,9 @@ se comentan los atributos de estos mismos.
 }
 
 body{
-	font-family: 'Lato', sans-serif;
-	font-family: 'Noto Sans', sans-serif;
-	font-family: 'Open Sans', sans-serif;
+	font-family: Roboto, sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 100 !important;
 }
 
 /********************************************************************************/
@@ -33,52 +33,266 @@ body{
 /* Comienza el estilo del navbar de la pagina */
 
 header{
-	position:fixed;
+	/*position:fixed;
 	z-index:999;
-	background-color:rgba(0,0,0, 0.7);
 	width: 100%;
 	height: 60px;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content:space-between;
+	justify-content:space-between;*/
 
 
 	/*outline:1px solid green;*/
 }
 
 header .menu{
-	position:relative;
-	right:120px;
+	/*position:relative;
+	right:120px;*/
 
 
 	/*outline:1px solid red; */
 }
 
 header .logo{
-	margin-top:-27px;
+	margin-top:-60px;
 	margin-left:100px;
 	height: 200%;
-	width: 170px;
 }
 
 header .menu .menu__anchor{
-	line-height:60px;
+	/*line-height:60px;
 	color:white;
 	text-decoration:none;
-	margin-right:40px;
-	font-family:arial;
-	font-size:14px;
+	margin-right:40px;*/
 }
 
 header .menu .menu__anchor:hover{
 	border-bottom:3px solid #2BB4F3;
 }
-
-.active{
-	border-bottom:3px solid #2BB4F3;
+#main-header .navbar-default {
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: 0 0;
+    margin-bottom: 0!important;
+    border: 0;
 }
-
-
+#main-header .navbar-default .navbar-collapse {
+    border: 0;
+    box-shadow: none;
+}
+#main-header .navbar-default .navbar-nav>li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#main-header .navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    line-height: 100%;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+#main-header .navbar-default .navbar-nav>li>a:active, #main-header .navbar-default .navbar-nav>li>a:focus, #main-header .navbar-default .navbar-nav>li>a:hover {
+    background: 0 0;
+}
+#main-header .navbar-default .navbar-nav>li span {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 10px;
+    margin-bottom: -10px;
+    -webkit-transition: border-color .2s;
+    -o-transition: border-color .2s;
+    transition: border-color .2s;
+}
+#main-header .navbar-default .navbar-nav>li:hover span {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+}
+#main-header .navbar-default .navbar-nav>li.current>a>span {
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+}
+#main-header .navbar-header .navbar-brand {
+    display: block;
+    background-size: cover;
+    -webkit-transition: background 0s;
+    -o-transition: background 0s;
+    transition: background 0s;
+}
+#main-header .navbar-header .navbar-brand h1 {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+#main-header .navbar-clean {
+    background: 0 0;
+}
+#main-header .navbar-clean .navbar-nav>li>a {
+    color: #fff;
+}
+#main-header .navbar-clean .navbar-nav>li.current>a>span {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+#main-header .navbar-clean .navbar-header .navbar-brand {
+    background-position: 0 0;
+}
+#main-header .navbar-dark {
+    background: #fff;
+}
+#main-header .navbar-dark .navbar-nav>li>a {
+    color: #555;
+}
+#main-header .navbar-dark .navbar-nav>li:hover>a {
+    color: #3d69e7;
+}
+#main-header .navbar-dark .navbar-nav>li:hover span {
+    border-color: rgba(0,0,0,.5);
+}
+#main-header .navbar-dark .navbar-nav>li.current>a>span {
+    color: #3d69e7;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+#main-header .navbar-dark .navbar-header .navbar-brand {
+    background-position: 0 -50px;
+}
+#main-header .navbar-fat {
+    position: absolute;
+    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%);
+    padding: 20px 60px 20px 20px;
+}
+#main-header .navbar-fat .navbar-nav>li {
+    padding-top: 20px;
+}
+#main-header .navbar-fat .navbar-nav>li>a {
+    padding: 30px 25px 30px 25px;
+    padding: 30px 15px 30px 15px;
+}
+#main-header .navbar-fat .navbar-header {
+    padding: 0;
+}
+#main-header .navbar-fat .navbar-header .navbar-brand {
+    width: 198px;
+    height: 112px;
+    width: 230px;
+    height: 131px;
+}
+#main-header .navbar-tiny {
+    background: #eee;
+    padding: 0 30px 0 0;
+}
+#main-header .navbar-tiny .navbar-nav>li>a {
+    padding: 30px 20px;
+    padding: 30px 10px;
+}
+#main-header .navbar-tiny .navbar-header .navbar-brand {
+    width: 70px;
+    height: 60px;
+    background-size: contain!important;
+    background-position: center!important;
+    margin: 10px 0 0 20px;
+}
+#main-header .hidden-sm a {
+    color: #3d69e7!important;
+    color: #999!important;
+}
+#main-header .dropdown-menu li a span {
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+    color: #333;
+    border: 0;
+    color: #333!important;
+    border: 0!important;
+}
+#main-header .dropdown-menu li:hover a span {
+    color: #fff!important;
+}
+@media (max-width:767px) {
+    #main-header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    border-width: 0 0 1px;
+}
+#main-header .navbar-collapse {
+    max-height: 340px;
+}
+#main-header .navbar-default {
+    background: rgba(0,0,0,.5)!important;
+    padding: 0!important;
+}
+#main-header .navbar-default .navbar-nav>li {
+    padding-top: 0;
+}
+#main-header .navbar-default .navbar-nav>li>a {
+    background: 0 0;
+    padding: 20px 15px;
+}
+#main-header .navbar-default .navbar-nav>li>a:focus {
+    background: 0 0;
+}
+#main-header .navbar-default .navbar-nav>li span {
+    border-bottom: none!important;
+}
+#main-header .navbar-default .navbar-nav>li .dropdown-menu {
+    padding: 20px 0;
+}
+#main-header .navbar-clean, #main-header .navbar-dark {
+    background: 0 0;
+}
+#main-header .navbar-clean .navbar-nav>li>a, #main-header .navbar-dark .navbar-nav>li>a {
+    color: #fff!important;
+}
+#main-header .navbar-clean .navbar-nav>li:active>a, #main-header .navbar-clean .navbar-nav>li:focus>a, #main-header .navbar-dark .navbar-nav>li:active>a, #main-header .navbar-dark .navbar-nav>li:focus>a {
+    color: #fff!important;
+    background-color: rgba(0,0,0,.5)!important;
+}
+#main-header .navbar-clean .navbar-header, #main-header .navbar-dark .navbar-header {
+    padding-top: 0;
+    padding-right: 0;
+    background: rgba(0,0,0,.5);
+}
+#main-header .navbar-clean .navbar-header .navbar-brand, #main-header .navbar-dark .navbar-header .navbar-brand {
+    width: 70px!important;
+    height: 55px!important;
+	background-image: url("../images/Adeo-logo-small.png");
+    background-size: contain!important;
+    background-position: center!important;
+    margin: 5px 0 0 0;
+}
+#main-header .dropdown span {
+    color: #fff!important;
+}
+#main-header .dropdown-menu {
+    background: #fff!important;
+}
+#main-header .dropdown-menu li a span {
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+    color: #333;
+    border: 0;
+    color: #333!important;
+    border: 0!important;
+}
+}
+@media (max-width:767px) and (max-device-width:480px) and (orientation:landscape) {
+    #main-header .navbar-collapse {
+    max-height: 200px;
+}
+}@media (max-width:767px) and (min-width:768px) {
+    #main-header {
+    border-radius: 0;
+}
+}
 /*Fin del estilo del navbar*/
 
 /********************************************************************************/
@@ -95,8 +309,7 @@ header .menu .menu__anchor:hover{
 
 .bienvenida__titulo{
 	position:absolute;
-	font-family:arial;
-	font-weight:800;
+	font-weight: 100;
 	font-size:40px;
 	letter-spacing:3px;
 	color:white;
@@ -112,14 +325,13 @@ header .menu .menu__anchor:hover{
 	box-sizing:border-box;
 	padding:20px 45px;
 	text-decoration:none;
-	font-family:arial;
-	font-weight:700;
 	font-size:18px;
+	font-weight: 300;
 	/*outline:1px solid red;*/
 }
 
 #bienvenida a{
-	text-decoration:none; 
+	text-decoration:none;
 }
 
 #bienvenida a:hover{
@@ -264,7 +476,7 @@ header .menu .menu__anchor:hover{
 	position: absolute;
 	line-height:20px;
 	left:50%;
-	transform:translateX(-50%);   
+	transform:translateX(-50%);
 	text-decoration:none;
 	color:black;
 }
@@ -878,41 +1090,41 @@ header .menu .menu__anchor:hover{
 	position:relative;
 	background-image:url(../images/fondo_index.jpg);
 	background-size:100% 100%;
-	background-repeat:no-repeat;     
+	background-repeat:no-repeat;
 }
 
 .impulsando__subarea{
 	width: 800px;
-	margin:auto; 
+	margin:auto;
 	height: 100%;
 	background-color:rgba(0, 0, 0, 0.7);
 	box-sizing:border-box;
-	padding:40px; 
+	padding:40px;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-around; 
+	justify-content: space-around;
 }
 
 .impulsando__main-idea{
 	color:white;
-	position:relative; 
+	position:relative;
 }
 
 .impulsando__main-idea h1{
-	font-size:27px; 
+	font-size:27px;
 }
 
 .impulsando__borde{
 	position:absolute;
 	width: 70px;
 	height: 4px;
-	background-color:#5E8EFA;  
+	background-color:#5E8EFA;
 }
 
 .impulsando__main-idea p{
-	font-size:20px; 
-	margin-top:40px; 
-	color:#999; 
+	font-size:20px;
+	margin-top:40px;
+	color:#999;
 }
 
 .impulsando__sub{
@@ -920,17 +1132,17 @@ header .menu .menu__anchor:hover{
 }
 
 .impulsando__sub h1{
-	font-size:21px; 
+	font-size:21px;
 	color: white;
 }
 
 .impulsando__sub span{
-	margin-right:15px; 
+	margin-right:15px;
 }
 
 .impulsando__sub p{
 	color:#999;
-	font-size:18px;  
+	font-size:18px;
 }
 
 /*Fin de la seccion de Impulsando su empresa*/
@@ -977,7 +1189,7 @@ header .menu .menu__anchor:hover{
 }
 
 #partners{
-	margin-bottom:40px; 
+	margin-bottom:40px;
 	position:relative;
 	display:flex;
 	flex-wrap:wrap;
@@ -985,11 +1197,11 @@ header .menu .menu__anchor:hover{
 }
 
 #partners .partner{
-	margin-top:200px; 
+	margin-top:200px;
 	width: 400px;
 	height: 180px;
-	outline:8px solid #777; 
-	background-color:white; 
+	outline:8px solid #777;
+	background-color:white;
 }
 
 /*Fin de la seccion de los partners*/
@@ -1002,20 +1214,20 @@ header .menu .menu__anchor:hover{
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
-#contacto{	
-	position:relative;  
+#contacto{
+	position:relative;
 	box-sizing:border-box;
-	padding:30px;  
+	padding:30px;
 	background-image:url(../images/fondo-notas.jpg);
 	background-size:100% 100%;
-	background-repeat:no-repeat;   
+	background-repeat:no-repeat;
 }
 
 #contacto .innerarea {
-	right:10px; 
+	right:10px;
   	max-width: 400px;
   	width: 100%;
-  	margin: auto; 
+  	margin: auto;
   	position: relative;
 }
 
@@ -1068,7 +1280,7 @@ fieldset {
 #contact textarea:hover {
   	transition: border-color 0.3s ease-in-out;
   	border: 1px solid #aaa;
-  	background-color:#F5FBF5; 
+  	background-color:#F5FBF5;
 }
 
 #contact textarea {
@@ -1126,8 +1338,8 @@ fieldset {
 /*Inicio del footer de la pagina*/
 
 footer{
-	background-color:#333; 
-	position:relative; 
+	background-color:#333;
+	position:relative;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -1135,86 +1347,86 @@ footer{
 }
 
 .footer__section{
-	margin-top:20px; 
+	margin-top:20px;
 	width: 300px;
 }
 
 .footer__section h1{
 	color:#C5BEBE;
 	text-align:center;
-	transform:translateX(-10%);  
-	font-size:20px; 
+	transform:translateX(-10%);
+	font-size:20px;
 	margin-bottom:30px;
-	text-shadow:0 1px 5px black;   
+	text-shadow:0 1px 5px black;
 }
 
 .footer__section p{
 	color:#999;
 	font-size:14px;
-	margin-bottom:50px; 
+	margin-bottom:50px;
 }
 
 .footer__section span{
-	margin-right:10px; 
-	font-size:18px;    
+	margin-right:10px;
+	font-size:18px;
 }
 
 .footer__section h2{
 	color:white;
-	font-size:19px;   
+	font-size:19px;
 }
 
 .footer__section p .tel2{
 	font-size:14px;
-	margin-left:28px;  
+	margin-left:28px;
 }
 
 .dir{
-	width:200px; 
+	width:200px;
 	font-size:19px;
-	letter-spacing:0.9px  
+	letter-spacing:0.9px
 }
 
 .icon{
-	text-decoration:none; 
+	text-decoration:none;
 	width: 50px;
 	height: 50px;
 	border-radius:50%;
 	text-align:center;
-	padding-top:13px; 
-	font-size:25px;     
+	padding-top:13px;
+	font-size:25px;
 	background-color:#999999;
 	display:inline-block;
-	margin-right:20px; 
-	color:#333;   
+	margin-right:20px;
+	color:#333;
 }
 
 .icon:hover{
-	color:white; 
+	color:white;
 }
 
 .dir{
-	width:280px; 
+	width:280px;
 }
 
 .copy{
 	border-top:1px solid #999;
-	color:#999;  
-	padding-top:20px; 
+	color:#999;
+	padding-top:20px;
 	position:absolute;
 	width: 90%;
-	bottom:10px; 
-	text-align: center; 
+	bottom:10px;
+	text-align: center;
 }
 
 .terms{
-	margin-top:70px; 
-	width:140px; 
+	margin-top:70px;
+	width:140px;
 }
 
 .mapa{
 	width:450px;
-	margin-right:30px; 
+	margin-right:30px;
 }
 
 /*Fin del footer de la pagina*/
