@@ -69,6 +69,11 @@ header .menu .menu__anchor{
 header .menu .menu__anchor:hover{
 	border-bottom:3px solid #2BB4F3;
 }
+
+.active{
+	border-bottom:1px solid white; 
+}
+
 #main-header .navbar-default {
     z-index: 1000;
     top: 0;
@@ -104,8 +109,13 @@ header .menu .menu__anchor:hover{
     -o-transition: border-color .2s;
     transition: border-color .2s;
 }
+
+#main-header .navbar-default .navbar-nav>li .active{
+	border-bottom: 1px solid;
+}
+
 #main-header .navbar-default .navbar-nav>li:hover span {
-    border-bottom: 1px solid;
+    
     padding-bottom: 5px;
     margin-bottom: -5px;
 }
