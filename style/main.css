@@ -32,38 +32,10 @@ body{
 
 /* Comienza el estilo del navbar de la pagina */
 
-header{
-	/*position:fixed;
-	z-index:999;
-	width: 100%;
-	height: 60px;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-between;*/
-
-
-	/*outline:1px solid green;*/
-}
-
-header .menu{
-	/*position:relative;
-	right:120px;*/
-
-
-	/*outline:1px solid red; */
-}
-
 header .logo{
 	margin-top:-60px;
-	margin-left:100px;
+	margin-left:50px;
 	height: 200%;
-}
-
-header .menu .menu__anchor{
-	/*line-height:60px;
-	color:white;
-	text-decoration:none;
-	margin-right:40px;*/
 }
 
 header .menu .menu__anchor:hover{
@@ -87,78 +59,17 @@ header .menu .menu__anchor:hover{
     margin-bottom: 0;
 }
 #main-header .navbar-default .navbar-nav>li>a {
+	color: #fff;
     text-transform: uppercase;
     line-height: 100%;
     -webkit-transition: color .2s;
     -o-transition: color .2s;
     transition: color .2s;
 }
-#main-header .navbar-default .navbar-nav>li>a:active, #main-header .navbar-default .navbar-nav>li>a:focus, #main-header .navbar-default .navbar-nav>li>a:hover {
-    background: 0 0;
-}
-#main-header .navbar-default .navbar-nav>li span {
-    border-bottom: 1px solid transparent;
-    padding-bottom: 10px;
-    margin-bottom: -10px;
-    -webkit-transition: border-color .2s;
-    -o-transition: border-color .2s;
-    transition: border-color .2s;
-}
 #main-header .navbar-default .navbar-nav>li:hover span {
     border-bottom: 1px solid;
     padding-bottom: 5px;
     margin-bottom: -5px;
-}
-#main-header .navbar-default .navbar-nav>li.current>a>span {
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
-    margin-bottom: -5px;
-}
-#main-header .navbar-header .navbar-brand {
-    display: block;
-    background-size: cover;
-    -webkit-transition: background 0s;
-    -o-transition: background 0s;
-    transition: background 0s;
-}
-#main-header .navbar-header .navbar-brand h1 {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0;
-}
-#main-header .navbar-clean {
-    background: 0 0;
-}
-#main-header .navbar-clean .navbar-nav>li>a {
-    color: #fff;
-}
-#main-header .navbar-clean .navbar-nav>li.current>a>span {
-    color: #fff;
-    border-bottom: 1px solid #fff;
-}
-#main-header .navbar-clean .navbar-header .navbar-brand {
-    background-position: 0 0;
-}
-#main-header .navbar-dark {
-    background: #fff;
-}
-#main-header .navbar-dark .navbar-nav>li>a {
-    color: #555;
-}
-#main-header .navbar-dark .navbar-nav>li:hover>a {
-    color: #3d69e7;
-}
-#main-header .navbar-dark .navbar-nav>li:hover span {
-    border-color: rgba(0,0,0,.5);
-}
-#main-header .navbar-dark .navbar-nav>li.current>a>span {
-    color: #3d69e7;
-    border-bottom: 1px solid rgba(0,0,0,.5);
-}
-#main-header .navbar-dark .navbar-header .navbar-brand {
-    background-position: 0 -50px;
 }
 #main-header .navbar-fat {
     position: absolute;
@@ -182,38 +93,8 @@ header .menu .menu__anchor:hover{
     width: 230px;
     height: 131px;
 }
-#main-header .navbar-tiny {
-    background: #eee;
-    padding: 0 30px 0 0;
-}
-#main-header .navbar-tiny .navbar-nav>li>a {
-    padding: 30px 20px;
-    padding: 30px 10px;
-}
-#main-header .navbar-tiny .navbar-header .navbar-brand {
-    width: 70px;
-    height: 60px;
-    background-size: contain!important;
-    background-position: center!important;
-    margin: 10px 0 0 20px;
-}
-#main-header .hidden-sm a {
-    color: #3d69e7!important;
-    color: #999!important;
-}
-#main-header .dropdown-menu li a span {
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-    color: #333;
-    border: 0;
-    color: #333!important;
-    border: 0!important;
-}
-#main-header .dropdown-menu li:hover a span {
-    color: #fff!important;
-}
-@media (max-width:767px) {
+
+@media (max-width:1024px) {
     #main-header {
     position: fixed;
     right: 0;
@@ -222,11 +103,9 @@ header .menu .menu__anchor:hover{
     top: 0;
     border-width: 0 0 1px;
 }
-#main-header .navbar-collapse {
-    max-height: 340px;
-}
 #main-header .navbar-default {
-    background: rgba(0,0,0,.5)!important;
+    /*background: rgba(0,0,0,.5)!important;*/
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%) ;
     padding: 0!important;
 }
 #main-header .navbar-default .navbar-nav>li {
@@ -245,9 +124,6 @@ header .menu .menu__anchor:hover{
 #main-header .navbar-default .navbar-nav>li .dropdown-menu {
     padding: 20px 0;
 }
-#main-header .navbar-clean, #main-header .navbar-dark {
-    background: 0 0;
-}
 #main-header .navbar-clean .navbar-nav>li>a, #main-header .navbar-dark .navbar-nav>li>a {
     color: #fff!important;
 }
@@ -258,7 +134,6 @@ header .menu .menu__anchor:hover{
 #main-header .navbar-clean .navbar-header, #main-header .navbar-dark .navbar-header {
     padding-top: 0;
     padding-right: 0;
-    background: rgba(0,0,0,.5);
 }
 #main-header .navbar-clean .navbar-header .navbar-brand, #main-header .navbar-dark .navbar-header .navbar-brand {
     width: 70px!important;
@@ -267,28 +142,22 @@ header .menu .menu__anchor:hover{
     background-size: contain!important;
     background-position: center!important;
     margin: 5px 0 0 0;
+	}
 }
-#main-header .dropdown span {
-    color: #fff!important;
-}
-#main-header .dropdown-menu {
-    background: #fff!important;
-}
-#main-header .dropdown-menu li a span {
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-    color: #333;
-    border: 0;
-    color: #333!important;
-    border: 0!important;
-}
+@media (max-width:767px) {
+	#main-header .navbar-default {
+		background: rgba(0,0,0,.5)!important;
+		padding: 0!important;
+	}	
 }
 @media (max-width:767px) and (max-device-width:480px) and (orientation:landscape) {
+
     #main-header .navbar-collapse {
-    max-height: 200px;
+    	max-height: 200px;
+	}
+
 }
-}@media (max-width:767px) and (min-width:768px) {
+@media (max-width:767px) and (min-width:768px) {
     #main-header {
     border-radius: 0;
 }
@@ -310,7 +179,7 @@ header .menu .menu__anchor:hover{
 .bienvenida__titulo{
 	position:absolute;
 	font-weight: 100;
-	font-size:40px;
+	font-size:48px;
 	letter-spacing:3px;
 	color:white;
 	text-align:right;
