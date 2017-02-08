@@ -1,4 +1,4 @@
-/*Nota inicial, se usa metodologia de clases de heredacion
+Nota inicial, se usa metodologia de clases de heredacion
 esto con el proposito de mantener el orden y no perderse
 a la hora de realizar cambios
 
@@ -11,7 +11,7 @@ se comentan los atributos de estos mismos.
 
 				INICIO DEL ESTILO DE LA PAGINA DE ADEO
 */
-@import url('https://fonts.googleapis.com/css?family=Lato:300|Roboto:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400|Noto+Sans:400,700|Open+Sans:400,700');
 /*Estilos generales.*/
 *{
 	padding: 0;
@@ -21,10 +21,13 @@ se comentan los atributos de estos mismos.
 #wrapper{
 	width: 100%;
 }
+
 body{
-	font-family: Roboto;
-	font-weight: 100;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
+
 /********************************************************************************/
 
 /* Comienza el estilo del navbar de la pagina */
@@ -63,9 +66,8 @@ header .menu .menu__anchor{
 	color:white;
 	text-decoration:none;
 	margin-right:40px;
-	font-family:Roboto;
-	font-size:16px;
-	font-weight: 100;
+	font-family:arial;
+	font-size:14px;
 }
 
 header .menu .menu__anchor:hover{
@@ -93,9 +95,9 @@ header .menu .menu__anchor:hover{
 
 .bienvenida__titulo{
 	position:absolute;
-	font-family:Roboto;
-	font-weight:100;
-	font-size:48px;
+	font-family:arial;
+	font-weight:800;
+	font-size:40px;
 	letter-spacing:3px;
 	color:white;
 	text-align:right;
@@ -110,13 +112,14 @@ header .menu .menu__anchor:hover{
 	box-sizing:border-box;
 	padding:20px 45px;
 	text-decoration:none;
-	font-weight: 300;
+	font-family:arial;
+	font-weight:700;
 	font-size:18px;
 	/*outline:1px solid red;*/
 }
 
 #bienvenida a{
-	text-decoration:none;
+	text-decoration:none; 
 }
 
 #bienvenida a:hover{
@@ -261,7 +264,7 @@ header .menu .menu__anchor:hover{
 	position: absolute;
 	line-height:20px;
 	left:50%;
-	transform:translateX(-50%);
+	transform:translateX(-50%);   
 	text-decoration:none;
 	color:black;
 }
@@ -875,41 +878,41 @@ header .menu .menu__anchor:hover{
 	position:relative;
 	background-image:url(../images/fondo_index.jpg);
 	background-size:100% 100%;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;     
 }
 
 .impulsando__subarea{
 	width: 800px;
-	margin:auto;
+	margin:auto; 
 	height: 100%;
 	background-color:rgba(0, 0, 0, 0.7);
 	box-sizing:border-box;
-	padding:40px;
+	padding:40px; 
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-around; 
 }
 
 .impulsando__main-idea{
 	color:white;
-	position:relative;
+	position:relative; 
 }
 
 .impulsando__main-idea h1{
-	font-size:27px;
+	font-size:27px; 
 }
 
 .impulsando__borde{
 	position:absolute;
 	width: 70px;
 	height: 4px;
-	background-color:#5E8EFA;
+	background-color:#5E8EFA;  
 }
 
 .impulsando__main-idea p{
-	font-size:20px;
-	margin-top:40px;
-	color:#999;
+	font-size:20px; 
+	margin-top:40px; 
+	color:#999; 
 }
 
 .impulsando__sub{
@@ -917,17 +920,17 @@ header .menu .menu__anchor:hover{
 }
 
 .impulsando__sub h1{
-	font-size:21px;
+	font-size:21px; 
 	color: white;
 }
 
 .impulsando__sub span{
-	margin-right:15px;
+	margin-right:15px; 
 }
 
 .impulsando__sub p{
 	color:#999;
-	font-size:18px;
+	font-size:18px;  
 }
 
 /*Fin de la seccion de Impulsando su empresa*/
@@ -974,7 +977,7 @@ header .menu .menu__anchor:hover{
 }
 
 #partners{
-	margin-bottom:40px;
+	margin-bottom:40px; 
 	position:relative;
 	display:flex;
 	flex-wrap:wrap;
@@ -982,11 +985,11 @@ header .menu .menu__anchor:hover{
 }
 
 #partners .partner{
-	margin-top:200px;
+	margin-top:200px; 
 	width: 400px;
 	height: 180px;
-	outline:8px solid #777;
-	background-color:white;
+	outline:8px solid #777; 
+	background-color:white; 
 }
 
 /*Fin de la seccion de los partners*/
@@ -999,20 +1002,20 @@ header .menu .menu__anchor:hover{
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 
-#contacto{
-	position:relative;
+#contacto{	
+	position:relative;  
 	box-sizing:border-box;
-	padding:30px;
+	padding:30px;  
 	background-image:url(../images/fondo-notas.jpg);
 	background-size:100% 100%;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;   
 }
 
 #contacto .innerarea {
-	right:10px;
+	right:10px; 
   	max-width: 400px;
   	width: 100%;
-  	margin: auto;
+  	margin: auto; 
   	position: relative;
 }
 
@@ -1065,7 +1068,7 @@ fieldset {
 #contact textarea:hover {
   	transition: border-color 0.3s ease-in-out;
   	border: 1px solid #aaa;
-  	background-color:#F5FBF5;
+  	background-color:#F5FBF5; 
 }
 
 #contact textarea {
@@ -1123,8 +1126,8 @@ fieldset {
 /*Inicio del footer de la pagina*/
 
 footer{
-	background-color:#333;
-	position:relative;
+	background-color:#333; 
+	position:relative; 
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -1132,101 +1135,90 @@ footer{
 }
 
 .footer__section{
-	margin-top:20px;
+	margin-top:20px; 
 	width: 300px;
 }
 
 .footer__section h1{
 	color:#C5BEBE;
 	text-align:center;
-	transform:translateX(-10%);
-	font-size:20px;
+	transform:translateX(-10%);  
+	font-size:20px; 
 	margin-bottom:30px;
-	text-shadow:0 1px 5px black;
+	text-shadow:0 1px 5px black;   
 }
 
 .footer__section p{
 	color:#999;
 	font-size:14px;
-	margin-bottom:50px;
+	margin-bottom:50px; 
 }
 
 .footer__section span{
-	margin-right:10px;
-	font-size:18px;
+	margin-right:10px; 
+	font-size:18px;    
 }
 
 .footer__section h2{
 	color:white;
-	font-size:19px;
+	font-size:19px;   
 }
 
 .footer__section p .tel2{
 	font-size:14px;
-	margin-left:28px;
+	margin-left:28px;  
 }
 
 .dir{
-	width:200px;
+	width:200px; 
 	font-size:19px;
-	letter-spacing:0.9px
+	letter-spacing:0.9px  
 }
 
 .icon{
-	text-decoration:none;
+	text-decoration:none; 
 	width: 50px;
 	height: 50px;
 	border-radius:50%;
 	text-align:center;
-	padding-top:13px;
-	font-size:25px;
+	padding-top:13px; 
+	font-size:25px;     
 	background-color:#999999;
 	display:inline-block;
-	margin-right:20px;
-	color:#333;
+	margin-right:20px; 
+	color:#333;   
 }
 
 .icon:hover{
-	color:white;
+	color:white; 
 }
 
 .dir{
-	width:280px;
+	width:280px; 
 }
 
 .copy{
 	border-top:1px solid #999;
-	color:#999;
-	padding-top:20px;
+	color:#999;  
+	padding-top:20px; 
 	position:absolute;
 	width: 90%;
-	bottom:10px;
-	text-align: center;
+	bottom:10px; 
+	text-align: center; 
 }
 
 .terms{
-	margin-top:70px;
-	width:140px;
+	margin-top:70px; 
+	width:140px; 
 }
 
 .mapa{
 	width:450px;
-	margin-right:30px;
+	margin-right:30px; 
 }
 
 /*Fin del footer de la pagina*/
 
 /*******************************************************************************\
 
-/*Inicio Reponsive*/
-@media screen and (max-device-width: 1024px) {
-	.informacion {
-		margin-left: 20px;
-	}
-}
-@media screen
-  and (min-device-width: 480px)
-  and (max-device-width: 767px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-}
+/*Fin del estilo de la pagina de ADEO*/
