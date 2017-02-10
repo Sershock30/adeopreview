@@ -9,7 +9,7 @@ se comentan los atributos de estos mismos.
 *******************************************************************
 
 
-				INICIO DEL ESTILO DE LA PAGINA DE ADEO
+INICIO DEL ESTILO DE LA PAGINA DE ADEO
 */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,300,400,700');
 /*Estilos generales.*/
@@ -27,109 +27,52 @@ body{
 	font-size: 16px !important;
 	font-weight: 100 !important;
 }
-
+nav{
+	background: rgba(16,16,16,0.5);
+}
+.text-ligth{
+	font-weight: 100 !important;
+}
 /********************************************************************************/
 
 /* Comienza el estilo del navbar de la pagina */
 
-header .logo{
-	margin-top:-60px;
+.logo{
 	margin-left:50px;
 	height: 200%;
+	width: 170px;
+}
+.navbar-toggler{
+	margin-top: 25px;
+	cursor: pointer;
 }
 
-header .menu .menu__anchor:hover{
-	border-bottom:3px solid #2BB4F3;
-}
-#main-header .navbar-default {
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: 0 0;
-    margin-bottom: 0!important;
-    border: 0;
-}
-#main-header .navbar-default .navbar-collapse {
-    border: 0;
-    box-shadow: none;
-}
-#main-header .navbar-default .navbar-nav>li {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-#main-header .navbar-default .navbar-nav>li>a {
-	color: #fff;
-    text-transform: uppercase;
-    line-height: 100%;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    transition: color .2s;
-}
-#main-header .navbar-default .navbar-nav>li:hover span {
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
-    margin-bottom: -5px;
-}
-#main-header .navbar-fat {
-    position: absolute;
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%);
-    padding: 20px 60px 20px 20px;
-}
-#main-header .navbar-fat .navbar-nav>li {
-    padding-top: 20px;
-}
-#main-header .navbar-fat .navbar-nav>li>a {
-    padding: 30px 25px 30px 25px;
-    padding: 30px 15px 30px 15px;
-}
-#main-header .navbar-fat .navbar-header {
-    padding: 0;
-}
-#main-header .navbar-fat .navbar-header .navbar-brand {
-    width: 198px;
-    height: 112px;
-    width: 230px;
-    height: 131px;
-}
 /*Fin del estilo del navbar*/
 
 /********************************************************************************/
 
 /*Inicio del estilo de la seccion de bienvenida*/
 
-#bienvenida{
-	position:relative;
-	min-height: 100vh;
-	background-image:url(../images/Manosprincipal.jpg);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
+#myCarousel{
+	background-color: rgba(16,16,16,0.5);
+	max-height: 638px;
 }
+.carouse_img-1{
+	background-image: url("../images/manosprincipal.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 
-.bienvenida__titulo{
-	position:absolute;
-	font-weight: 100;
-	font-size:48px;
-	letter-spacing:3px;
-	color:white;
-	text-align:right;
-	width:700px;
-	right:150px;
-	top: 50%;
-	transform:translateY(-50%);
 }
-
-.bienvenida__boton{
-	position:absolute;
-	box-sizing:border-box;
-	padding:20px 45px;
-	text-decoration:none;
-	font-size:18px;
-	font-weight: 300;
-	/*outline:1px solid red;*/
+.carouse_img-2{
+	background-image: url("../images/led.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
-
+.carouse_img-3{
+	background-image: url("../images/paneles.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
 #bienvenida a{
 	text-decoration:none;
 }
@@ -139,17 +82,11 @@ header .menu .menu__anchor:hover{
 }
 
 .bienvenida__cotizar{
-	right:355px;
-	top: 66%;
-	transform:translateY(-50%);
 	color:#666;
 	background-color:white;
 }
 
 .bienvenida__contacto{
-	right:150px;
-	top: 66%;
-	transform:translateY(-50%);
 	color:white;
 	background-color:#444;
 }
@@ -556,8 +493,8 @@ header .menu .menu__anchor:hover{
 	padding-top:10px;
 	width: 100%;
 	position:relative;
-  	overflow:hidden;
-  	margin-bottom:50px;
+	overflow:hidden;
+	margin-bottom:50px;
 }
 
 .content{
@@ -597,8 +534,8 @@ header .menu .menu__anchor:hover{
 }
 
 /*section img{
-	width: 100%;
-	height: 450px;
+width: 100%;
+height: 450px;
 }*/
 
 #btn-prev{
@@ -717,31 +654,31 @@ header .menu .menu__anchor:hover{
 /*
 
 ----------arqui{
-	background-color:#D07CD5;
+background-color:#D07CD5;
 }
 
 .---------conta{
-	background-color:#931D1D;
+background-color:#931D1D;
 }
 
 .---------dise{
-	background-color:#E64418;
+background-color:#E64418;
 }
 
 .elect{
-	background-color:#E3EA1D;
+background-color:#E3EA1D;
 }
 
 .---------info{
-	background-color:#120C8A;
+background-color:#120C8A;
 }
 
 .ilu{
-	background-color:#F6A444;
+background-color:#F6A444;
 }
 
 .panel{
-	background-color:#208C37;
+background-color:#208C37;
 }
 
 */
@@ -1024,10 +961,10 @@ header .menu .menu__anchor:hover{
 
 #contacto .innerarea {
 	right:10px;
-  	max-width: 400px;
-  	width: 100%;
-  	margin: auto;
-  	position: relative;
+	max-width: 400px;
+	width: 100%;
+	margin: auto;
+	position: relative;
 }
 
 #contact input[type="text"],
@@ -1036,28 +973,28 @@ header .menu .menu__anchor:hover{
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+	font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  	background: #F9F9F9;
-  	padding: 25px;
-  	margin: 0 0;
-  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	background: #F9F9F9;
+	padding: 25px;
+	margin: 0 0;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h4 {
-  	margin: 5px 0 15px;
-  	display: block;
-  	font-size: 13px;
-  	font-weight: 400;
+	margin: 5px 0 15px;
+	display: block;
+	font-size: 13px;
+	font-weight: 400;
 }
 
 fieldset {
- 	margin: 0 0 10px;
- 	min-width: 100%;
- 	padding: 0;
- 	width: 100%;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
 }
 
 #contact input[type="text"],
@@ -1065,11 +1002,11 @@ fieldset {
 #contact input[type="tel"],
 #contact input[type="url"],
 #contact textarea {
- 	width: 100%;
- 	border: 1px solid #ccc;
- 	background: #FFF;
- 	margin: 0 0 5px;
- 	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
 }
 
 #contact input[type="text"]:hover,
@@ -1077,57 +1014,57 @@ fieldset {
 #contact input[type="tel"]:hover,
 #contact input[type="url"]:hover,
 #contact textarea:hover {
-  	transition: border-color 0.3s ease-in-out;
-  	border: 1px solid #aaa;
-  	background-color:#F5FBF5;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #aaa;
+	background-color:#F5FBF5;
 }
 
 #contact textarea {
-  	height: 100px;
-  	max-width: 100%;
-  	resize: none;
+	height: 100px;
+	max-width: 100%;
+	resize: none;
 }
 
 #contact button[type="submit"] {
-  	cursor: pointer;
-  	width: 100%;
-  	border: none;
-  	background: #4CAF50;
-  	color: #FFF;
-  	margin: 0 0 5px;
-  	padding: 10px;
-  	font-size: 15px;
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #4CAF50;
+	color: #FFF;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
-  	background: #43A047;
-  	transition: background-color 0.3s ease-in-out;
+	background: #43A047;
+	transition: background-color 0.3s ease-in-out;
 }
 
 #contact button[type="submit"]:active {
-  	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 #contact input:focus,
 #contact textarea:focus {
-  	outline: 0;
-  	border: 1px solid #aaa;
+	outline: 0;
+	border: 1px solid #aaa;
 }
 
 ::-webkit-input-placeholder {
- 	color: #888;
+	color: #888;
 }
 
 :-moz-placeholder {
-  	color: #888;
+	color: #888;
 }
 
 ::-moz-placeholder {
-  	color: #888;
+	color: #888;
 }
 
 :-ms-input-placeholder {
-  	color: #888;
+	color: #888;
 }
 
 /*Fin de la seccion de Contacto*/
@@ -1233,76 +1170,30 @@ footer{
 /*******************************************************************************\
 
 /*Media Queries*/
-
-@media (max-width:1024px) {
-#main-header {
-    position: fixed;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    top: 0;
-    border-width: 0 0 1px;
-}
-#main-header .navbar-default {
-    /*background: rgba(0,0,0,.5)!important;*/
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .5) 100%) ;
-    padding: 0!important;
-}
-#main-header .navbar-default .navbar-nav>li {
-    padding-top: 0;
-}
-#main-header .navbar-default .navbar-nav>li>a {
-    background: 0 0;
-    padding: 20px 15px;
-}
-#main-header .navbar-default .navbar-nav>li>a:focus {
-    background: 0 0;
-}
-#main-header .navbar-default .navbar-nav>li span {
-    border-bottom: none!important;
-}
-#main-header .navbar-default .navbar-nav>li .dropdown-menu {
-    padding: 20px 0;
-}
-#main-header .navbar-clean .navbar-nav>li>a, #main-header .navbar-dark .navbar-nav>li>a {
-    color: #fff!important;
-}
-#main-header .navbar-clean .navbar-nav>li:active>a, #main-header .navbar-clean .navbar-nav>li:focus>a, #main-header .navbar-dark .navbar-nav>li:active>a, #main-header .navbar-dark .navbar-nav>li:focus>a {
-    color: #fff!important;
-    background-color: rgba(0,0,0,.5)!important;
-}
-#main-header .navbar-clean .navbar-header, #main-header .navbar-dark .navbar-header {
-    padding-top: 0;
-    padding-right: 0;
-}
-#main-header .navbar-clean .navbar-header .navbar-brand, #main-header .navbar-dark .navbar-header .navbar-brand {
-    width: 70px!important;
-    height: 55px!important;
-	background-image: url("../images/Adeo-logo-small.png");
-    background-size: contain!important;
-    background-position: center!important;
-    margin: 5px 0 0 0;
+@media (min-width:992px) {
+	nav{
+		height: 76px;
 	}
-.informacion{
-	margin-left: 20px;
 }
+@media (max-width:1024px) {
+	/*nav{
+		height: 60px;
+	}*/
+	.logo{
+		margin-left: 0px;
+		height: 100%;
+    	width: 120px;
+	}
+	.bienvenida__titulo{
+		right: 50px;
+		font-size: 40px;
+	}
+	.informacion{
+		margin-left: 20px;
+	}
+
 }
 @media (max-width:767px) {
-	#main-header .navbar-default {
-		background: rgba(0,0,0,.5)!important;
-		padding: 0!important;
-	}
-}
-@media (max-width:767px) and (max-device-width:480px) and (orientation:landscape) {
 
-    #main-header .navbar-collapse {
-    	max-height: 200px;
-	}
-
-}
-@media (max-width:767px) and (min-width:768px) {
-    #main-header {
-    border-radius: 0;
-}
 }
 /*Fin del estilo de la pagina de ADEO*/
