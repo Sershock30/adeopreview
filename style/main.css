@@ -66,7 +66,7 @@ nav{
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:center;
-	padding-bottom:50px;    
+	padding-bottom:50px;
 }
 
 /*Fin del estilo del navbar*/
@@ -238,7 +238,7 @@ nav{
 #imagen-areas{
 	height: 70vh;
 	background-size:100% 100%;
-	background-image:url(../images/servicios.png);
+	background-image:url(../images/logo-gris.png);
 	position:relative;
 }
 
@@ -1219,6 +1219,14 @@ footer p{
 }
 
 /*Fin del footer de la pagina*/
+
+.modal-body{
+	font-weight: 300;
+}
+ul{
+	list-style: none;
+}
+
 
 /*******************************************************************************\
 
