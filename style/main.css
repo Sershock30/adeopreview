@@ -411,6 +411,7 @@ nav{
 	width: 75%;
 	margin:auto;
 	height: 100%;
+	position: relative;
 	background-color:rgba(255,255,255,0.9);
 	box-sizing:border-box;
 	padding:40px;
@@ -437,7 +438,8 @@ nav{
 	width: 60px;
 	height: 3px;
 	background-color:#2BB4F3;
-	left:225px;
+	left:445px;
+	top: 110px;
 }
 
 .subsecciones{
