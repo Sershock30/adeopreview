@@ -257,8 +257,6 @@ nav{
 	height: 240px;
 	left:50%;
 	transform:translateX(-210px);
-
-
 	/*outline:1px solid black;*/
 }
 
@@ -1080,10 +1078,11 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	height:400px;
+	min-height: 400px;
 }
 
 .footer__section{
+	float:left; 
 	margin-top:20px;
 	width: 300px;
 }
