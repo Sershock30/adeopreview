@@ -29,6 +29,7 @@ body{
 }
 nav{
 	background: rgba(16,16,16,0.5);
+	height: 76px;
 }
 .text-ligth{
 	font-weight: 100 !important;
@@ -101,8 +102,7 @@ nav{
 
 #caracteristicas{
 	position:relative;
-	min-height: 400px;
-	max-height:100vh;
+	min-height: 500px;
 	width: 100%;
 	background-color:white;
 	display:flex;
@@ -112,10 +112,9 @@ nav{
 
 .caracterisitcas__caracteristica{
 	cursor:pointer;
-	margin-bottom:40px;
 	position:relative;
-	margin:auto;
-	height:170px;
+	margin: 30px 15px;
+	height:300px;
 	width: 400px;
 	box-sizing:border-box;
 	padding:27px;
@@ -135,13 +134,11 @@ nav{
 	color:white;
 	text-align:center;
 	font-size:30px;
-	line-height:60px;
+	line-height:54px;
 }
 
-.caracterisitcas__caracteristica h2{
+.caracterisitcas__caracteristica h4{
 	margin-top:10px;
-	font-size:20px;
-	font-family:arial;
 	letter-spacing:1.1px;
 	color:#555;
 }
@@ -157,8 +154,8 @@ nav{
 }
 
 .caracterisitcas__caracteristica p{
-	margin-top:20px;
-	font-family:arial;
+	font-weight: 300;
+	margin-top:40px;
 	line-height:24px;
 	color:#777;
 }
@@ -1170,15 +1167,16 @@ footer{
 /*******************************************************************************\
 
 /*Media Queries*/
-@media (min-width:992px) {
-	nav{
-		height: 76px;
-	}
+
+/*Large devices (desktops, less than 1200px)*/*/
+@media (max-width: 1199px) {
 }
-@media (max-width:1024px) {
-	/*nav{
-		height: 60px;
-	}*/
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+	nav{
+		height: auto;
+	}
 	.logo{
 		margin-left: 0px;
 		height: 100%;
@@ -1191,9 +1189,19 @@ footer{
 	.informacion{
 		margin-left: 20px;
 	}
+	.caracterisitcas__caracteristica{
+		height: auto;
+		width: auto;
+	}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
 
 }
-@media (max-width:767px) {
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
 
 }
 /*Fin del estilo de la pagina de ADEO*/
