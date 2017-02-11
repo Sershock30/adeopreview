@@ -85,11 +85,13 @@ nav{
 .bienvenida__cotizar{
 	color:#666;
 	background-color:white;
+	cursor: pointer;
 }
 
 .bienvenida__contacto{
 	color:white;
 	background-color:#444;
+	cursor: pointer;
 }
 
 
@@ -593,7 +595,7 @@ height: 450px;
 	position:absolute;
 	top: 60px;
 	width:127px;
-	font-size:17px; 
+	font-size:17px;
 	left: 120px;
 	padding:10px 40px 10px 20px;
 	background-color:#DDD8D8;
