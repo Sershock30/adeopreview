@@ -61,6 +61,13 @@ nav{
 	border-bottom:1px solid white !important;
 }
 
+.adjustcontent__centrar{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	padding-bottom:50px;    
+}
+
 /*Fin del estilo del navbar*/
 
 /********************************************************************************/
