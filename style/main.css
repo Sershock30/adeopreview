@@ -37,7 +37,7 @@ nav{
 	font-weight: 100 !important;
 }
 .link{
-	color: #4abf03 !important;
+	color: #CDDC39 !important;
 	cursor: pointer;
 }
 .link:hover{
@@ -332,11 +332,6 @@ nav{
 	/*outline:1px solid black;*/
 }
 
-#servicios .servicio h2{
-	font-size:19px;
-	font-family:arial;
-	color:#555;
-}
 
 #servicios .servicio div{
 	font-size:25px;
@@ -350,14 +345,9 @@ nav{
 	display:inline-block;
 }
 
-#servicios .servicio p{
-	margin-top:5px;
-	font-family:arial;
-	color:#777;
-}
 
 .arqui{
-	background-color:#D07CD5;
+	background-color:#9c27b0;
 }
 
 .conta{
@@ -365,23 +355,23 @@ nav{
 }
 
 .dise{
-	background-color:#E64418;
+	background-color:#FF5722;
 }
 
 .elect{
-	background-color:#E3EA1D;
+	background-color:#ffeb3b;
 }
 
 .info{
-	background-color:#120C8A;
+	background-color:#3f51b5;
 }
 
 .ilu{
-	background-color:#F6A444;
+	background-color:#8BC34A;
 }
 
 .panel{
-	background-color:#208C37;
+	background-color:#4CAF50;
 }
 
 /*Fin de la seccion de servicios*/
