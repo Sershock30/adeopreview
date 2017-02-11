@@ -1082,7 +1082,7 @@ footer{
 }
 
 .footer__section{
-	float:left; 
+	float:left;
 	margin-top:20px;
 	width: 300px;
 }
@@ -1205,6 +1205,8 @@ footer{
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-
+.initial{
+	position: initial !important;
+}
 }
 /*Fin del estilo de la pagina de ADEO*/
