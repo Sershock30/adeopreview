@@ -13,9 +13,10 @@ INICIO DEL ESTILO DE LA PAGINA DE ADEO
 */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,300,400,700');
 /*Estilos generales.*/
+
 *{
 	padding: 0;
-	margin: 0;
+	margin: 0 ;
 }
 
 #wrapper{
@@ -1149,10 +1150,10 @@ footer{
 	text-shadow:0 1px 5px black;
 }
 
-.footer__section p{
+footer p{
 	color:#999;
 	font-size:14px;
-	margin-bottom:50px;
+	margin-bottom:50px; 
 }
 
 .footer__section span{
@@ -1178,16 +1179,17 @@ footer{
 
 .icon{
 	text-decoration:none;
-	width: 50px;
-	height: 50px;
+	width: 35px;
+	height: 35px;
 	border-radius:50%;
 	text-align:center;
-	padding-top:13px;
+	padding-top:5px;
 	font-size:25px;
 	background-color:#999999;
 	display:inline-block;
 	margin-right:20px;
 	color:#333;
+	z-index:999; 
 }
 
 .icon:hover{
@@ -1202,10 +1204,11 @@ footer{
 	/*border-top:1px solid #999;*/
 	color:#999;
 	text-align: center;
+	z-index:-100;
 }
 
 .terms{
-	margin-top:70px;
+	padding-top:100px; 
 	width:140px;
 }
 
