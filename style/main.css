@@ -574,6 +574,7 @@ height: 450px;
 	width: 200px;
 	top: 20px;
 	left: 120px;
+	font-size:18px;
 	color:#929191;
 }
 
@@ -592,6 +593,7 @@ height: 450px;
 	position:absolute;
 	top: 60px;
 	width:127px;
+	font-size:17px; 
 	left: 120px;
 	padding:10px 40px 10px 20px;
 	background-color:#DDD8D8;
