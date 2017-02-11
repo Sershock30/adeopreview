@@ -512,9 +512,10 @@ nav{
 
 #nuestro-equipo img{
 	position:absolute;
-	width: 300px;
-	height: 240px;
+	width: 100px;
+	height: 140px;
 	left:50%;
+	top: 30px;
 	transform:translateX(-275px);
 
 
@@ -762,8 +763,8 @@ background-color:#208C37;
 
 #portafolio img{
 	position:absolute;
-	width: 300px;
-	height: 240px;
+	width: 100px;
+	height: 140px;
 	left:50%;
 	transform:translateX(-330px);
 	z-index:-999;
@@ -776,7 +777,7 @@ background-color:#208C37;
 	position:absolute;
 	left:50%;
 	transform:translateX(-50%);
-	top:72px;
+	top:42px;
 	color:#2BB4F3;
 }
 
@@ -784,7 +785,7 @@ background-color:#208C37;
 	position:absolute;
 	left:50%;
 	transform:translateX(30px);
-	top:140px;
+	top:90px;
 	width: 70px;
 	height: 4px;
 	background-color:#999;
@@ -951,9 +952,10 @@ background-color:#208C37;
 
 .partners__titulo img{
 	position:absolute;
-	width: 300px;
-	height: 240px;
+	width: 100px;
+	height: 140px;
 	left:50%;
+	top:30px; 
 	transform:translateX(-330px);
 	z-index:-999;
 
