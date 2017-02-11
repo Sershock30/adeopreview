@@ -18,7 +18,7 @@
 				<a class="navbar-brand" href="#"><img width="30px" height="30px" class="d-inline-block align-top logo" src="images/adeo-logo.png" alt=""></a>
 				<div class="collapse navbar-collapse flex-row-reverse " id="navbarTogglerDemo01">
 					<ul class="navbar-nav">
-						<li class="nav-item active"><a class="nav-link" href="#myCarousel"><span>INICIO</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#myCarousel"><span>INICIO</span></a></li>
 						<li class="nav-item"><a class="nav-link" href="#caracteristicas"><span>VALORES</span></a></li>
 						<li class="nav-item"><a class="nav-link" href="#imagen-areas"><span>SERVICIOS</span></a></li>
 						<li class="nav-item"><a class="nav-link" href="#nuestro-equipo"><span>EQUIPO</span></a></li>
@@ -95,7 +95,7 @@
 					<h4>ADEO VERDE</h4>
 					<p>Comprometidos en ayudar a disminuir el calentamiento global, es por eso que en ADEO nos enfocamos en buscar alternativas para que su empresa contribuya a la visión país
 						<a class="link" data-toggle="modal" data-target="#carbonoNeutro">
-						  "Costa Rica Carbono Neutral"
+						  "Costa Rica Carbono Neutral" 
 					  </a> y de paso ahorre en su factura electrica.</p>
 				</div>
 			</div>
@@ -749,6 +749,51 @@
 		//Fin de la funcion del smooth scrolling
 	});
 </script>
+
+<script>
+	
+	$(document).ready(function () {
+    $(document).on("scroll", onScroll);
+    
+    //smoothscroll
+    $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+        $(document).off("scroll");
+        
+        $('a').each(function () {
+            $(this).removeClass('active');
+        })
+        $(this).addClass('active');
+      
+        var target = this.hash,
+            menu = target;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top+2
+        }, 500, 'swing', function () {
+            window.location.hash = target;
+            $(document).on("scroll", onScroll);
+        });
+    });
+});
+
+function onScroll(event){
+    var scrollPos = $(document).scrollTop();
+    $('#navbarTogglerDemo01 a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('#navbarTogglerDemo01 ul li a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
+
+</script>
+
 <script src="js/slider.js"></script>
 </body>
 </html>
