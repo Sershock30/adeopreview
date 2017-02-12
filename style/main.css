@@ -706,7 +706,7 @@ height: 450px;
 	background-image:url(../images/diseno.jpg);
 }
 
-/*.persona__checkbox{
+.persona__checkbox{
 	display:none; 
 }
 
@@ -734,7 +734,7 @@ height: 450px;
 
 #mas-info:checked ~ .label:after{  
 	content:"Ocultar";
-}*/
+}
 
 /*
 
