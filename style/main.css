@@ -1160,9 +1160,10 @@ fieldset {
 /*Inicio del footer de la pagina*/
 
 footer{
-	min-height:400px !important; 
+	/*min-height:400px !important; */
 	background-color:#333;
-	outline:1px solid red; 
+
+	/*outline:1px solid red; */
 }
 
 .footer__section{
@@ -1232,12 +1233,15 @@ footer p{
 }
 
 .copy{
-	margin:none;
+	margin:0;
 	width: 100%;
+	margin-top:20px;
 	border-top:1px solid #999999;  
-	padding:30px 0 0 0;
+	padding:50px 0 1px 0;
 	text-align: center;
- 	outline:1px solid red; 
+
+
+ 	/*outline:1px solid red;*/ 
 }
 
 .terms{
@@ -1257,6 +1261,10 @@ footer p{
 }
 ul{
 	list-style: none;
+}
+
+.clear{
+	clear:both; 	
 }
 
 
