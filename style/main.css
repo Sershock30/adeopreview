@@ -706,7 +706,7 @@ height: 450px;
 	background-image:url(../images/diseno.jpg);
 }
 
-.persona__checkbox{
+/*.persona__checkbox{
 	display:none; 
 }
 
@@ -728,13 +728,13 @@ height: 450px;
 .mas-informacion{  
 }
 
-#mas-info:checked ~ .info{
+#mas-info:checked ~ .persona__mas-informacion{
 	display:block;   
 }
 
 #mas-info:checked ~ .label:after{  
 	content:"Ocultar";
-}
+}*/
 
 /*
 
@@ -1302,7 +1302,7 @@ ul{
 		position: initial !important;
 	}
 
-	.persona .triangulo1 , .triangulo2 , p{
+	.persona .triangulo1 , .triangulo2 , .persona p{
 		display:none;
 	}
 
@@ -1323,7 +1323,7 @@ ul{
 		text-decoration:underline; 
 	}
 
-	#mas-info:checked ~ .mas-informacion{  
+	#mas-info:checked ~ .persona__mas-informacion{  
 		display:block;
 		box-sizing:border-box;
 		padding:20px;  
