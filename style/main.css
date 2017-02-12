@@ -13,7 +13,6 @@ INICIO DEL ESTILO DE LA PAGINA DE ADEO
 */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:100,300,400,700');
 /*Estilos generales.*/
-
 *{
 	padding: 0;
 	margin: 0 ;
@@ -540,13 +539,13 @@ nav{
 }
 
 #c-slider{
-	min-height:500px;
 	margin:auto;
 	padding-top:10px;
 	width: 100%;
+	min-height:100vh;
+	max-height:300vh;  
 	position:relative;
-	overflow:hidden;
-	margin-bottom:50px;
+	overflow:hidden; 
 }
 
 .content{
@@ -711,7 +710,7 @@ height: 450px;
 }
 
 .label:after{
-	font-size:20px;
+	font-size:16px;
 	content:"Mas informacion";
 }
 
@@ -725,14 +724,11 @@ height: 450px;
 	color:#121E7B;  
 }
 
-.mas-informacion{  
-}
-
-#mas-info:checked ~ .persona__mas-informacion{
+.persona__checkbox:checked ~ .persona__mas-informacion{
 	display:block;   
 }
 
-#mas-info:checked ~ .label:after{  
+.persona__checkbox:checked ~ .label:after{  
 	content:"Ocultar";
 }
 
@@ -805,6 +801,7 @@ background-color:#208C37;
 	font-family:arial;
 	position:absolute;
 	left:50%;
+	z-index:-900;
 	transform:translateX(-50%);
 	top:42px;
 	color:#2BB4F3;
@@ -1327,16 +1324,13 @@ ul{
 		left: 50%;
 	}
 
-	.persona .persona__mas-info:hover{
-		text-decoration:underline; 
-	}
-
-	#mas-info:checked ~ .persona__mas-informacion{  
+	.persona__checkbox:checked ~ .persona__mas-informacion{  
 		display:block;
 		box-sizing:border-box;
 		padding:20px;  
-		left:10px;
-		top:150px; 
+		left:100px;
+		border-radius:30px; 
+		top:-15px; 
 		z-index:999;  
 		background-color:rgba(255,255,255, 1); 
 	}
