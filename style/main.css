@@ -554,6 +554,7 @@ nav{
 }
 
 .content section{
+	min-height:100%; 
 	box-sizing:border-box;
 	padding:20px;
 	width: 100%;
