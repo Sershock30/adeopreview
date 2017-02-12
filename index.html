@@ -168,7 +168,7 @@
 				</div>
 			</section>
 
-			<!-- <section id="como-trabajamos">
+			<section id="como-trabajamos">
 				<div class="informacion">
 					<h1>COMO TRABAJAMOS</h1>
 					<div class="informacion__borde"></div>
@@ -192,7 +192,7 @@
 						</div>
 					</div>
 				</div>
-			</section> -->
+			</section>
 
 			<section id="nuestro-equipo">
 				<div class="equipo__espacio">
@@ -210,11 +210,13 @@
 							<!-- Aqui se cambia el nombre del area -->
 							<h5>Inform&aacute;tica <span class="triangulo2"></span></h5>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
+							
 
 							<!-- En esta clase se pone el color... esta en el css al final de la seccion de equipo -->
 							<div class="area info icon-screen"></div>
-							<label class="persona__mas-info" for="sergioserrano">M&aacute;s Informaci&oacute;n</label>
+							<input id="mas-info" class="persona__checkbox" type="checkbox">
+							<label for="mas-info" class="persona__mas-info label"></label>
+							<p class="mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
 						</div>
 
 						<div class="persona">
@@ -227,6 +229,7 @@
 
 							<!-- En esta clase se pone el color... esta en el css al final de la seccion de equipo -->
 							<div class="area info icon-screen"></div>
+
 						</div>
 
 						<div class="persona">
@@ -722,6 +725,8 @@
 	<script>
 
 	$(document).ready(function () {
+
+
 		$(document).on("scroll", onScroll);
 
 		//smoothscroll
