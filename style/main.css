@@ -540,7 +540,7 @@ nav{
 
 #c-slider{
 	margin:auto;
-	padding-top:10px;
+	padding-top:30px;
 	width: 100%;
 	min-height:100vh;
 	max-height:300vh;  
@@ -564,8 +564,18 @@ nav{
 }
 
 .content section h1{
-	font-family:arial;
 	position:absolute;
+	top:50%;
+	transform:translateY(-35%);  
+	margin:0 auto;
+	z-index:990;
+	width: 200px;
+	height: 80px;
+	border-radius:50%;
+	font-size:30px; 
+	text-align:center;
+	color:white;  
+	line-height:80px;   
 }
 
 #btn-prev, #btn-next{
@@ -1273,6 +1283,12 @@ ul{
 @media (max-width: 1199px) {
 }
 
+@media (max-width:1080px) {
+	#c-slider .content section h1{
+		display:none; 
+	}
+}
+
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
 	nav{
@@ -1293,6 +1309,10 @@ ul{
 	.caracterisitcas__caracteristica{
 		height: auto;
 		width: auto;
+	}
+
+	#c-slider .content section h1{
+		display:none; 
 	}
 }
 
