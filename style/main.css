@@ -24,8 +24,8 @@ INICIO DEL ESTILO DE LA PAGINA DE ADEO
 
 body{
 	font-family: Roboto, sans-serif !important;
-	font-size: 16px !important;
-	font-weight: 100 !important;
+	font-size: 17px !important;
+	font-weight: 300 !important;
 }
 
 nav{
@@ -290,7 +290,12 @@ nav{
 /*******************************************************************************
 
 /*Inicio de la seccion de servicios*/
-
+#nuestros-servicios{
+	position:relative;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
 
 #servicios{
 	background-color: #F5F5F5;
@@ -543,9 +548,9 @@ nav{
 	padding-top:30px;
 	width: 100%;
 	min-height:100vh;
-	max-height:300vh;  
+	max-height:300vh;
 	position:relative;
-	overflow:hidden; 
+	overflow:hidden;
 }
 
 .content{
@@ -554,7 +559,7 @@ nav{
 }
 
 .content section{
-	min-height:100%; 
+	min-height:100%;
 	box-sizing:border-box;
 	padding:20px;
 	width: 100%;
@@ -567,16 +572,16 @@ nav{
 .content section h1{
 	position:absolute;
 	top:50%;
-	transform:translateY(-35%);  
+	transform:translateY(-35%);
 	margin:0 auto;
 	z-index:990;
 	width: 200px;
 	height: 80px;
 	border-radius:50%;
-	font-size:30px; 
+	font-size:30px;
 	text-align:center;
-	color:white;  
-	line-height:80px;   
+	color:white;
+	line-height:80px;
 }
 
 #btn-prev, #btn-next{
@@ -698,9 +703,9 @@ height: 450px;
 
 }
 
-#informatica{
+/*#informatica{
 	background-image:url(../images/info.jpg);
-}
+}*/
 
 #electricidad{
 	background-image:url(../images/electricidad.jpg);
@@ -717,7 +722,7 @@ height: 450px;
 }
 
 .persona__checkbox{
-	display:none; 
+	display:none;
 }
 
 .label:after{
@@ -726,20 +731,20 @@ height: 450px;
 }
 
 .label{
-	display:none; 
+	display:none;
 }
 
-.label:hover{ 
-	transition:.5s; 
+.label:hover{
+	transition:.5s;
 	cursor:pointer;
-	color:#121E7B;  
+	color:#121E7B;
 }
 
 .persona__checkbox:checked ~ .persona__mas-informacion{
-	display:block;   
+	display:block;
 }
 
-.persona__checkbox:checked ~ .label:after{  
+.persona__checkbox:checked ~ .label:after{
 	content:"Ocultar";
 }
 
@@ -1048,7 +1053,7 @@ background-color:#208C37;
 	position:relative;
 	box-sizing:border-box;
 	padding:30px;
-	background-image:url(../images/fondo-notas.jpg);
+	background-color: #263238;
 	background-size:100% 100%;
 	background-repeat:no-repeat;
 }
@@ -1167,48 +1172,13 @@ fieldset {
 
 /*Inicio del footer de la pagina*/
 
-footer{
-	/*min-height:400px !important; */
-	background-color:#333;
-
-	/*outline:1px solid red; */
-}
-
 .footer__section{
 	background-color:#333;
-	float:left;
-	margin-top:20px;
-	width: 300px;
-}
+	text-align: center;
 
-.footer__section h1{
-	color:#C5BEBE;
-	text-align:center;
-	transform:translateX(-10%);
-	font-size:20px;
-	margin-bottom:30px;
-	text-shadow:0 1px 5px black;
 }
-
-footer p{
-	color:#999;
-	font-size:14px;
-	margin-bottom:50px;
-}
-
-.footer__section span{
-	margin-right:10px;
-	font-size:18px;
-}
-
-.footer__section h2{
-	color:white;
-	font-size:19px;
-}
-
-.footer__section p .tel2{
-	font-size:14px;
-	margin-left:28px;
+.footer__section p{
+	color: white;
 }
 
 .dir{
@@ -1217,7 +1187,7 @@ footer p{
 	letter-spacing:0.9px
 }
 
-.icon{
+/*.icon{
 	text-decoration:none;
 	width: 35px;
 	height: 35px;
@@ -1230,7 +1200,7 @@ footer p{
 	margin-right:20px;
 	color:#333;
 	z-index:999;
-}
+}*/
 
 .icon:hover{
 	color:white;
@@ -1244,12 +1214,12 @@ footer p{
 	margin:0;
 	width: 100%;
 	margin-top:20px;
-	border-top:1px solid #999999;  
+	border-top:1px solid #999999;
 	padding:50px 0 1px 0;
 	text-align: center;
 
 
- 	/*outline:1px solid red;*/ 
+ 	/*outline:1px solid red;*/
 }
 
 .terms{
@@ -1272,7 +1242,7 @@ ul{
 }
 
 .clear{
-	clear:both; 	
+	clear:both;
 }
 
 
@@ -1286,7 +1256,7 @@ ul{
 
 @media (max-width:1080px) {
 	#c-slider .content section h1{
-		display:none; 
+		display:none;
 	}
 }
 
@@ -1313,7 +1283,7 @@ ul{
 	}
 
 	#c-slider .content section h1{
-		display:none; 
+		display:none;
 	}
 }
 
@@ -1338,22 +1308,22 @@ ul{
 	}
 
 	.persona .label{
-		color:blue; 
+		color:blue;
 		cursor:pointer;
 		display:block;
 		position:absolute;
 		left: 50%;
 	}
 
-	.persona__checkbox:checked ~ .persona__mas-informacion{  
+	.persona__checkbox:checked ~ .persona__mas-informacion{
 		display:block;
 		box-sizing:border-box;
-		padding:20px;  
+		padding:20px;
 		left:100px;
-		border-radius:30px; 
-		top:-15px; 
-		z-index:999;  
-		background-color:rgba(255,255,255, 1); 
+		border-radius:30px;
+		top:-15px;
+		z-index:999;
+		background-color:rgba(255,255,255, 1);
 	}
 }
 /*Fin del estilo de la pagina de ADEO*/

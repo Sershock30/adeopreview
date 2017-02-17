@@ -39,7 +39,7 @@ function hideloader(){
 
 // function autoslide(){
 // 	if (go === 1) {
-		
+
 // 	}
 // }
 
