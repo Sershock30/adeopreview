@@ -32,6 +32,9 @@ nav{
 	background: rgba(16,16,16,0.5);
 	height: 76px;
 }
+legend{
+	color: white !important;
+}
 
 .text-ligth{
 	font-weight: 100 !important;
@@ -990,6 +993,7 @@ background-color:#208C37;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
+	z-index: 99;
 }
 
 .partners__titulo img{
@@ -1010,7 +1014,7 @@ background-color:#208C37;
 	left:50%;
 	transform:translateX(-50%);
 	top:72px;
-	color:#2BB4F3;
+	color:#fdc949;
 }
 
 .partners__titulo .portafolio__linea{
@@ -1024,21 +1028,70 @@ background-color:#208C37;
 }
 
 #partners{
-	margin-bottom:40px;
+	padding-bottom:40px;
 	position:relative;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
+	background-color: #263238;
 }
 
 #partners .partner{
 	margin-top:200px;
 	width: 400px;
 	height: 180px;
-	outline:8px solid #777;
-	background-color:white;
 }
-
+section.contact {
+  text-align: center;
+  padding: 100px 0;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+  font-weight: 300;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li{
+	display: inline-block;
+}
+section.contact ul.list-social li a {
+  display: inline-block;;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+.bg-primary {
+  background: #fdcc52;
+  background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539);
+}
 /*Fin de la seccion de los partners*/
 
 /*******************************************************************************\
@@ -1178,7 +1231,7 @@ fieldset {
 
 }
 .footer__section p{
-	color: white;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .dir{
