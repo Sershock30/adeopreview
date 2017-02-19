@@ -10,7 +10,12 @@
 	<link rel="stylesheet" href="style/form.css">
 	<link rel="stylesheet" href="style/font-awesome.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style/animate.css">
 
+	<script src="js/wow.js"></script>
+	  <script>
+	  new WOW().init();
+	  </script>
 </head>
 <body>
 	<div id="wrapper">
@@ -43,20 +48,20 @@
 				<div class="carousel-item active carouse_img-1">
 					<div style="height:638px"></div>
 					<div class="carousel-caption d-md-block text-right">
-						<h1 class="text-ligth" style="color:#FFF;">SOLUCIONES AL ALCANCE DE SU MANO</h1>
-						<h3 class="text-ligth">Invierta en la solución para su empresa</h3>
+						<h1 class="text-ligth wow slideInRight" style="color:#FFF;">SOLUCIONES AL ALCANCE DE SU MANO</h1>
+						<h3 class="text-ligth wow slideInLeft">Invierta en la solución para su empresa</h3>
 						<p>
-							<a class="text-ligth btn btn-lg bienvenida__cotizar" href="#" role="button">Cotizar</a>
-							<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button">Contacto</a>
+							<a class="text-ligth btn btn-lg bienvenida__cotizar wow slideInUp" href="#" role="button">Cotizar</a>
+							<a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a>
 						</p>
 					</div>
 				</div>
 				<div class="carousel-item carouse_img-2">
 					<div style="height:638px"></div>
 					<div class="carousel-caption d-md-block text-left">
-						<h1 class="text-ligth">Luminarias LED</h1>
+						<h1 class="text-ligth wow slideInDown">Luminarias LED</h1>
 						<h3 class="text-ligth">Los mejores led para la mejor empresa</h3>
-						<p><a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button">Contacto</a></p>
+						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a></p>
 					</div>
 				</div>
 				<div class="carousel-item carouse_img-3">
@@ -64,7 +69,7 @@
 					<div class="carousel-caption d-md-block">
 						<h1 class="text-ligth">Paneles Solares</h1>
 						<h3 class="text-ligth">No es sólo cuestión de instalarlos</h3>
-						<p><a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button">Contacto</a></p>
+						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a></p>
 					</div>
 				</div>
 			</div>
@@ -81,19 +86,19 @@
 		<section id="caracteristicas" class="container">
 			<h2 class="mx-auto my-auto text-ligth">Sobre ADEO</h2>
 			<div class="row mx-auto my-auto">
-				<div class="caracterisitcas__caracteristica mision rounded">
+				<div class="caracterisitcas__caracteristica mision rounded wow slideInLeft">
 					<div class="caracteristicas__borde"></div>
 					<span class="icon-rocket img"></span>
 					<h4>MISIÓN</h4>
 					<p>Somos una empresa de servicios en el mercado nacional, que comprometidos con la satisfacción del cliente, desarrollamos nuestras competencias esenciales y utilizamos los recursos de forma óptima, colaborando así con el desarrollo ambiental, económico y social del país.</p>
 				</div>
-				<div class="caracterisitcas__caracteristica vision rounded">
+				<div class="caracterisitcas__caracteristica vision rounded wow bounceInUp">
 					<div class="caracteristicas__borde"></div>
 					<span class="icon-power img"></span>
 					<h4>VISIÓN</h4>
 					<p>Ser una empresa modelo en la prestación de servicios, logrando la satisfacción del cliente basados en el desarrollo tecnológico, socio ambiental y la calidad técnica y humana de nuestro personal.</p>
 				</div>
-				<div class="caracterisitcas__caracteristica verde rounded">
+				<div class="caracterisitcas__caracteristica verde rounded wow slideInRight">
 					<div class="caracteristicas__borde"></div>
 					<span class="icon-leaf img "></span>
 					<h4>ADEO VERDE</h4>
@@ -109,8 +114,8 @@
 				<img src="images/manosadeo.png" alt=""><h1>NUESTROS PARTNERS</h1>
 			</section>
 			<section id="partners">
-				<img class="partner" src="images/led-mexico.jpg" alt="">
-				<img class="partner" src="images/enerland.jpg" alt="">
+				<a href="http://www5.ledmexico.com.mx/" target="_blank"><img class="partner rounded  wow bounceInUp" src="images/led-mexico.jpg" alt=""></a>
+				<a href="http://www.enerlandgroup.es" target="_blank"><img class="partner rounded wow bounceInDown" src="images/enerland.jpg" alt=""></a>
 			</section>
 			<section id="imagen-areas" class="container-fluid">
 				<a href="#servicios" class="bajar" id="bajar"><p>v</p></a>
@@ -338,7 +343,7 @@
 				<section id="contacto">
 					<form class="cd-form floating-labels" method="post" action="">
 						<fieldset>
-							<legend>Contáctanos</legend>
+							<legend class="wow shake">Contáctanos</legend>
 
 							<div class="error-message">
 
@@ -391,7 +396,7 @@
 						</fieldset>
 					</form>
 				</section>
-				<section id="contacts" class="contact bg-primary">
+				<section id="contacts" class="contact bg-primary wow zoomIn">
 					<div class="container">
 						<h2>Nosotros <i class="fa fa-heart"></i> nuevos amigos!</h2>
 						<ul class="list-inline list-social">

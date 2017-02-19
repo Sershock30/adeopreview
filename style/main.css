@@ -1378,5 +1378,8 @@ ul{
 		z-index:999;
 		background-color:rgba(255,255,255, 1);
 	}
+	.partner{
+		width: 250px !important;
+	}
 }
 /*Fin del estilo de la pagina de ADEO*/
