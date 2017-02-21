@@ -921,68 +921,6 @@ background-color:#208C37;
 
 /*******************************************************************************\
 
-/*Inicio de la seccion de Impulsando su empresa*/
-
-#impulsando{
-	position:relative;
-	background-image:url(../images/fondo_index.jpg);
-	background-size:100% 100%;
-	background-repeat:no-repeat;
-}
-
-.impulsando__subarea{
-	width: 75%;
-	margin:auto;
-	height: 100%;
-	background-color:rgba(0, 0, 0, 0.7);
-	box-sizing:border-box;
-	padding:40px;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
-.impulsando__main-idea{
-	color:white;
-	position:relative;
-}
-
-.impulsando__main-idea h1{
-	font-size:27px;
-}
-
-.impulsando__borde{
-	position:absolute;
-	width: 70px;
-	height: 4px;
-	background-color:#5E8EFA;
-}
-
-.impulsando__main-idea p{
-	font-size:20px;
-	margin-top:40px;
-	color:#999;
-}
-
-.impulsando__sub{
-	width: 320px;
-}
-
-.impulsando__sub h1{
-	font-size:21px;
-	color: white;
-}
-
-.impulsando__sub span{
-	margin-right:15px;
-}
-
-.impulsando__sub p{
-	color:#999;
-	font-size:18px;
-}
-
-/*Fin de la seccion de Impulsando su empresa*/
 
 /*******************************************************************************\
 
@@ -1297,8 +1235,17 @@ ul{
 .clear{
 	clear:both;
 }
-
-
+.img-equipo{
+	height: 200px;
+	width: 50%;
+	margin-bottom: 15px;
+}
+.figcaption-equipo{
+	height: 180px;
+}
+.padding-bot-equipo{
+	padding-bottom: 25px;
+}
 /*******************************************************************************\
 
 /*Media Queries*/
