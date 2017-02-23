@@ -29,8 +29,8 @@
 					<ul class="navbar-nav">
 						<li class="nav-item"><a class="nav-link" href="#myCarousel"><span>INICIO</span></a></li>
 						<li class="nav-item"><a class="nav-link" href="#caracteristicas"><span>VALORES</span></a></li>
-						<li class="nav-item"><a class="nav-link" href="#imagen-areas"><span>SERVICIOS</span></a></li>
-						<li class="nav-item"><a class="nav-link" href="#c-slider"><span>EQUIPO</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#servicios"><span>SERVICIOS</span></a></li>
+						<li class="nav-item"><a class="nav-link" href="#equipo"><span>EQUIPO</span></a></li>
 						<!-- <li class="nav-item"><a class="nav-link" href="#portafolio"><span>PORTAFOLIO</span></a></li> -->
 						<li class="nav-item"><a class="nav-link" href="#contacto"><span>CONTACTO</span></a></li>
 					</ul>
@@ -52,7 +52,7 @@
 						<h3 class="text-ligth wow slideInLeft">Invierta en la solución para su empresa</h3>
 						<p>
 							<a class="text-ligth btn btn-lg bienvenida__cotizar wow slideInUp" href="#" role="button">Cotizar</a>
-							<a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a>
+							<a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#contacto" role="button">Contacto</a>
 						</p>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 					<div class="carousel-caption d-md-block text-left">
 						<h1 class="text-ligth wow slideInDown">Luminarias LED</h1>
 						<h3 class="text-ligth">Los mejores led para la mejor empresa</h3>
-						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a></p>
+						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#contacto" role="button">Contacto</a></p>
 					</div>
 				</div>
 				<div class="carousel-item carouse_img-3">
@@ -69,7 +69,7 @@
 					<div class="carousel-caption d-md-block">
 						<h1 class="text-ligth">Paneles Solares</h1>
 						<h3 class="text-ligth">No es sólo cuestión de instalarlos</h3>
-						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#" role="button">Contacto</a></p>
+						<p><a class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp" href="#contacto" role="button">Contacto</a></p>
 					</div>
 				</div>
 			</div>
@@ -111,18 +111,19 @@
 
 			</section>
 			<section class="partners__titulo">
-				<img src="images/manosadeo.png" alt=""><h1>NUESTROS PARTNERS</h1>
+				<h2 class="titulos text-center text-ligth">NUESTROS PARTNERS</h2>
 			</section>
 			<section id="partners">
-				<a href="http://www5.ledmexico.com.mx/" target="_blank"><img class="partner rounded  wow bounceInUp" src="images/led-mexico.jpg" alt=""></a>
-				<a href="http://www.enerlandgroup.es" target="_blank"><img class="partner rounded wow bounceInDown" src="images/enerland.jpg" alt=""></a>
+				<a href="http://www5.ledmexico.com.mx/" target="_blank"><img class="partner rounded  wow zoomIn" src="images/led-mexico.jpg" alt=""></a>
+				<a href="http://www.enerlandgroup.es" target="_blank"><img class="partner rounded wow zoomIn" src="images/enerland.jpg" alt=""></a>
 			</section>
 			<section id="imagen-areas" class="container-fluid">
 				<a href="#servicios" class="bajar" id="bajar"><p>v</p></a>
 			</section>
 
-			<section class="container">
-				<div class="arqui row servicios">
+			<section id="servicios" class="container">
+				<h2 class="text-center servicios-titulo text-ligth">Nuestros Servicios</h2>
+				<div class="arqui row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-home" aria-hidden="true"></i><br>ARQUITECTURA</h4>
 						<p>Tendencias internacionales, diseños de ensueño, proyectos que harán que nadie quiera salir del edificio.</p>
@@ -131,7 +132,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#arquiModal">Servicios de Arquitectura</a>
 					</div>
 				</div>
-				<div class="conta row servicios">
+				<div class="conta row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-usd" aria-hidden="true"></i><br>CONTABILIDAD</h4>
 						<p>Con la experiencia, orden y la seriedad que sus finanzas requieren en la busqueda del éxito.</p>
@@ -140,7 +141,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#contaModal">Servicios de Contabilidad</a>
 					</div>
 				</div>
-				<div class="dise row servicios">
+				<div class="dise row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="icon-paint-brush" aria-hidden="true"></i><br>DISEÑO GRÁFICO</h4>
 						<p>Creadores de realidades, potenciadores de ideas e implementadores de estratégias.</p>
@@ -149,7 +150,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#grafiModal">Servicios de Diseño Gráfico</a>
 					</div>
 				</div>
-				<div class="elect row servicios">
+				<div class="elect row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-bolt" aria-hidden="true"></i><br>ELECTRICIDAD</h4>
 						<p>Capaces de realizar proyectos tanto en los hogares, como hasta de gran envergadura, con experiencia tanto nacional como Internacionalmente.</p>
@@ -158,7 +159,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#electModal">Servicios de Electricidad</a>
 					</div>
 				</div>
-				<div class="info row servicios">
+				<div class="info row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-laptop" aria-hidden="true"></i><br>INFORMÁTICA</h4>
 						<p>Solucionando e innovando para que su empresa crezca con las mejores tecnologías.</p>
@@ -167,7 +168,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#infoModal">Servicios de Informática</a>
 					</div>
 				</div>
-				<div class="panel row servicios">
+				<div class="panel row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-sun-o" aria-hidden="true"></i><br>PANELES SOLARES</h4>
 						<p>Con gran experiencia internacional en la ejecución de proyectos de energía fotovoltaica.</p>
@@ -176,7 +177,7 @@
 						<a class="btn btn-lg bienvenida__contacto text-ligth" href="#" role="button" data-toggle="modal" data-target="#panelModal">Ver más..</a>
 					</div>
 				</div>
-				<div class="ilu row servicios">
+				<div class="ilu row servicios rounded wow fadeIn">
 					<div class="col-lg-8 txt-servicios">
 						<h4><i class="fa fa-lightbulb-o" aria-hidden="true"></i><br>ILUMINACIÓN LED</h4>
 						<p>Trabajando con los desarrolladores de led más grandes del mundo, para brindarle la mayor calidad que su empresa necesita.</p>
@@ -186,315 +187,165 @@
 					</div>
 				</div>
 			</section>
-			<section  class="container">
-				<!-- <div class="equipo__espacio">
-				<img src="images/manosadeo.png" alt=""><h2>NUESTRO EQUIPO</h2><div class="equipo__linea"></div>
-			</div> -->
-			<div class="row">
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/sergio.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Sergio Serrano</h2>
-						<h5>Informática</h5>
-						<p>
-							Ingeniero en Informática, Técnico en Soporte y Técnico en Redes de Computadoras.
-							Emprendedor, con hambre de conocimiento ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center  padding-bot-equipo wow flipInX">
-					<figure>
-						<img src="images/equipo/andres.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Andrés Umaña</h2>
-						<h5>Informática</h5>
-						<p>
-							Analista y Diseñador de sistemas, especialista en bases de datos, me apasiona ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/chang.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Sergio Chang</h2>
-						<h5>Informática</h5>
-						<p>
-							Estudiante en Ing. en Software, me dedico a desarrollar paginas web.
-							Mis hobbies son ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/oscar.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Oscar Montes</h2>
-						<h5>Electricidad</h5>
-						<p>
-							Estudiante de ingenieria eléctrica, me gusta mucho los retos en especial cuando es alguna investigación, me encanta jugar futbol.. soy una ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center  padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/heiler.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Heiler Castro</h2>
-						<h5>Electricidad</h5>
-						<p>
-							Ing Eléctrico especialista en diseño y consultoría.
-							Me gustan los deportes como
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/eduardo.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Eduardo Meléndez</h2>
-						<h5>Arquitectura</h5>
-						<p>
-							Estudiante de Arquitectura, con una alta pasión, por desarrollar proyectos que satisfagan las necesidades del ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/Stephanie.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Sthepanie Cubillo</h2>
-						<h5>Arquitectura</h5>
-						<p>
-							Dibujante Arquitectónica y estudiante de Ingeniería Civil.
-							Soy proactiva y me gustan los retos, me satisface aprender cosas nuevas y ocupar mi tiempo, mi principal hobbie es ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center  padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/danny.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Danny Gutiérrez</h2>
-						<h5>Contabilidad</h5>
-						<p>
-							Contador Privado Incorporado, egresado de la carrera de Licenciatura en Contaduría Pública en la Universidad de Costa Rica; además con
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-				<div class="col-lg-4 text-center padding-bot-equipo">
-					<figure>
-						<img src="images/equipo/paulina.jpg" alt="" class="img-equipo wow fadeIn">
-					</figure>
-					<figcaption class="figcaption-equipo text-left wow flipInX">
-						<h2>Paulina Madrigal</h2>
-						<h5>Diseño Gráfico</h5>
-						<p>
-							Bachiller en Enseñanza del Arte y la Comunicación Visual, con conocimientos en Diseño Gráfico y Web.  Desde pequeña me gusta agregarle ...
-						</p>
-					</figcaption>
-					<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow slideInUp">Ver más...</a>
-				</div>
-			</div>
-			<!-- <section id="c-slider">
-			<div class="content">
-			<section id="informatica">
-			<h1 class="info">Inform&aacute;tica</h1>
-			<div class="persona">
-			<img src="images/equipo/sergio.jpg" alt="">
-			<h4>Sergio Serrano <span class="triangulo1"></span></h4>
+			<section id="equipo" class="container-fluid" style="background-color: #F5F5F5;">
+				<section class="container" style="padding-top:15px;">
+					<h2 class="text-center servicios-titulo text-ligth">Nuestro Equipo</h2>
+					<div class="row">
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/sergio.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Sergio Serrano</h2>
+								<h5>Informática</h5>
+								<p>
+									Ingeniero en Informática, Técnico en Soporte y Técnico en Redes de Computadoras.
+									Emprendedor, con hambre de conocimiento ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center  padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/andres.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Andrés Umaña</h2>
+								<h5>Informática</h5>
+								<p>
+									Analista y Diseñador de sistemas, especialista en bases de datos, me apasiona ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/chang.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Sergio Chang</h2>
+								<h5>Informática</h5>
+								<p>
+									Estudiante en Ing. en Software, me dedico a desarrollar paginas web.
+									Mis hobbies son ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/oscar.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Oscar Montes</h2>
+								<h5>Electricidad</h5>
+								<p>
+									Estudiante de ingenieria eléctrica, me gusta mucho los retos en especial cuando es alguna investigación, me encanta jugar futbol.. soy una ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center  padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/heiler.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Heiler Castro</h2>
+								<h5>Electricidad</h5>
+								<p>
+									Ing Eléctrico especialista en diseño y consultoría.
+									Me gustan los deportes como
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/eduardo.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Eduardo Meléndez</h2>
+								<h5>Arquitectura</h5>
+								<p>
+									Estudiante de Arquitectura, con una alta pasión, por desarrollar proyectos que satisfagan las necesidades del ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/Stephanie.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Sthepanie Cubillo</h2>
+								<h5>Arquitectura</h5>
+								<p>
+									Dibujante Arquitectónica y estudiante de Ingeniería Civil.
+									Soy proactiva y me gustan los retos, me satisface aprender cosas nuevas y ocupar mi tiempo, mi principal hobbie es ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center  padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/danny.jpg" alt="" class="img-equipo wow fadeIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Danny Gutiérrez</h2>
+								<h5>Contabilidad</h5>
+								<p>
+									Contador Privado Incorporado, egresado de la carrera de Licenciatura en Contaduría Pública en la Universidad de Costa Rica; además con
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+						<div class="col-lg-4 text-center padding-bot-equipo">
+							<figure>
+								<img src="images/equipo/paulina.jpg" alt="" class="img-equipo wow zoomIn">
+							</figure>
+							<figcaption class="figcaption-equipo text-left wow flipInX">
+								<h2>Paulina Madrigal</h2>
+								<h5>Diseño Gráfico</h5>
+								<p>
+									Bachiller en Enseñanza del Arte y la Comunicación Visual, con conocimientos en Diseño Gráfico y Web.  Desde pequeña me gusta agregarle ...
+								</p>
+							</figcaption>
+							<a href="#" class="btn btn-lg bienvenida__contacto text-ligth wow zoomIn">Ver más...</a>
+						</div>
+					</div>
+				</section>
 
-			<h5>Inform&aacute;tica <span class="triangulo2"></span></h5>
-
-
-
-
-			<div class="area info icon-screen"></div>
-			<input id="mas-info" class="persona__checkbox" type="checkbox">
-			<label for="mas-info" class="persona__mas-info label"></label>
-			<p class="persona__mas-informacion">Ingeniero en Informática, Técnico en Soporte y técnico en redes de computadoras.
-			Emprendedor, con hambre de conocimiento, creativo, proactivo, con energía y ganas de ayudar para que las cosas sucedan.
-			Apasionado del baile latino, de los deportes en especial el Taekwondo, ciclismo y natación.
-			Con ADEO Soluciones tengo metas claras y muy marcadas, una de ellas es trabajar con la excelencia que todo trabajo se merece para así ADEO se destaque y sea un diferenciador con respecto a las demás empresas.</p>
-		</div>
-
-		<div class="persona">
-		<img src="images/equipo/andres.jpg" alt="">
-		<h4>Andres Uma&#241;a <span class="triangulo1"></span></h4>
-
-		<h5> Inform&aacute;tica<span class="triangulo2"></span></h5>
-
-		<div class="area info icon-screen"></div>
-
-		<input id="mas-info2" class="persona__checkbox" type="checkbox">
-		<label for="mas-info2" class="persona__mas-info label"></label>
-		<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-	</div>
-
-	<div class="persona">
-	<img src="images/equipo/chang.jpg" alt="">
-	<h4>Sergio Chang M. <span class="triangulo1"></span></h4>
-
-	<h5>Inform&aacute;tica <span class="triangulo2"></span></h5>
-
-
-	<div class="area info icon-screen"></div>
-	<input id="mas-info3" class="persona__checkbox" type="checkbox">
-	<label for="mas-info3" class="persona__mas-info label"></label>
-	<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-</section>
-<section id="electricidad">
-<h1 class="elect">Electricidad</h1>
-
-<div class="persona">
-<img src="images/equipo/oscar.jpg" alt="">
-<h4>Oscar Montes <span class="triangulo1"></span></h4>
-
-<h5>Electricidad <span class="triangulo2"></span></h5>
-
-
-<div class="area elect icon-cubes"></div>
-<input id="mas-info4" class="persona__checkbox" type="checkbox">
-<label for="mas-info4" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-<div class="persona">
-<img src="images/equipo/heiler.jpg" alt="">
-<h4>Heiler Castro <span class="triangulo1"></span></h4>
-
-<h5>Electricidad <span class="triangulo2"></span></h5>
-
-
-<div class="area elect icon-cubes"></div>
-<input id="mas-info5" class="persona__checkbox" type="checkbox">
-<label for="mas-info5" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-</section>
-<section id="arquitectura">
-<h1 class="arqui">Arquitectura</h1>
-
-<div class="persona">
-<img src="images/equipo/eduardo.jpg" alt="">
-<h4>Eduardo Mel&eacute;ndez <span class="triangulo1"></span></h4>
-
-<h5>Arquitectura <span class="triangulo2"></span></h5>
-
-
-<div class="area arqui icon-paint-brush"></div>
-
-<input id="mas-info6" class="persona__checkbox" type="checkbox">
-<label for="mas-info6" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-<div class="persona">
-<img src="images/equipo/Stephanie.jpg" alt="">
-<h4>Stephanie Cubillo <span class="triangulo1"></span></h4>
-
-<h5>Arquitectura <span class="triangulo2"></span></h5>
-
-
-<div class="area arqui icon-paint-brush"></div>
-
-<input id="mas-info7" class="persona__checkbox" type="checkbox">
-<label for="mas-info7" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-</section>
-
-<section id="contabilidad">
-<h1 class="conta">Contabilidad</h1>
-<div class="persona">
-<img src="images/equipo/danny.jpg" alt="">
-<h4>Danny Guti&eacute;rrez <span class="triangulo1"></span></h4>
-
-<h5>Contabilidad <span class="triangulo2"></span></h5>
-
-
-<div class="area conta icon-dollar"></div>
-
-<input id="mas-info8" class="persona__checkbox" type="checkbox">
-<label for="mas-info8" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-</section>
-<section id="diseno">
-<h1 class="dise">Dise&#241;o</h1>
-
-<div class="persona">
-<img src="images/equipo/paulina.jpg" alt="">
-<h4>Paulina Madrigal <span class="triangulo1"></span></h4>
-
-<h5>Dise&#241;o <span class="triangulo2"></span></h5>
-
-
-<div class="area dise icon-cube"></div>
-
-<input id="mas-info9" class="persona__checkbox" type="checkbox">
-<label for="mas-info9" class="persona__mas-info label"></label>
-<p class="persona__mas-informacion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti reprehenderit ad soluta. </p>
-</div>
-
-</section>
-<div id="btn-prev"><</div>
-<div id="btn-next">></div>
-</div>
-</section> -->
 </section>
 <section id="contacto">
 	<form class="cd-form floating-labels" method="post" action="">
 		<fieldset>
-			<legend class="wow shake">Contáctanos</legend>
+			<legend class="wow bounceInLeft">Contáctanos</legend>
 
 			<div class="error-message">
 
 			</div>
 
-			<div class="icon">
+			<div class="icon wow bounceInLeft">
 				<label class="cd-label" for="cd-name">Nombre</label>
 				<input class="user" type="text" name="cd-name" id="cd-name" required>
 			</div>
 
-			<div class="icon">
+			<div class="icon wow bounceInLeft">
 				<label class="cd-label" for="cd-company">Compañia</label>
 				<input class="company" type="text" name="cd-company" id="cd-company">
 			</div>
 
-			<div class="icon">
+			<div class="icon wow bounceInLeft">
 				<label class="cd-label" for="cd-email">Email</label>
 				<input class="email" type="email" name="cd-email" id="cd-email" required>
 			</div>
 		</fieldset>
 
-		<fieldset>
+		<fieldset class="wow bounceInLeft">
 			<legend>Información del proyecto</legend>
 
 			<div>

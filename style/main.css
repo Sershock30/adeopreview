@@ -295,7 +295,11 @@ legend{
 /*Inicio de la seccion de servicios*/
 .servicios{
 	min-height: 150px;
-	margin: auto !important;
+	margin-bottom: 10px;
+}
+.servicios-titulo{
+	color: rgb(41, 43, 44);
+	margin: 25px auto;
 }
 .txt-servicios{
 	color: #FAFAFA;
@@ -884,8 +888,7 @@ background-color:#208C37;
 	/*outline:1px solid black;*/
 }
 
-.partners__titulo h1{
-	font-family:arial;
+.titulos{
 	position:absolute;
 	left:50%;
 	transform:translateX(-50%);
