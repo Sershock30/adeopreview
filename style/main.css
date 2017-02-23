@@ -302,11 +302,6 @@ legend{
 	padding-top: 25px;
 	text-align: center;
 }
-.txt-servicios-elect{
-	color: #212121;
-	padding-top: 25px;
-	text-align: center;
-}
 .btn-servicios{
 	text-align: center;
 }
@@ -328,7 +323,7 @@ legend{
 }
 
 .elect{
-	background-color:#ffeb3b;
+	background-color:#FBC02D;
 }
 
 .info{
