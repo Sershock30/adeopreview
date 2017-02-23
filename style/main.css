@@ -293,84 +293,27 @@ legend{
 /*******************************************************************************
 
 /*Inicio de la seccion de servicios*/
-#nuestros-servicios{
-	position:relative;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-around;
+.servicios{
+	min-height: 150px;
+	margin: auto !important;
 }
-
-#servicios{
-	background-color: #F5F5F5;
-	position:relative;
-	min-height:100vh;
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-around;
+.txt-servicios{
+	color: #FAFAFA;
+	padding-top: 25px;
+	text-align: center;
 }
-
-#servicios .servicios__espacio{
-	width: 100%;
-	height:200px;
-
-
-	/*outline:1px solid black;*/
+.txt-servicios-elect{
+	color: #212121;
+	padding-top: 25px;
+	text-align: center;
 }
-
-#servicios img{
-	position:absolute;
-	width: 300px;
-	height: 240px;
-	left:50%;
-	transform:translateX(-210px);
-	/*outline:1px solid black;*/
+.btn-servicios{
+	text-align: center;
 }
-
-#servicios h2{
-	left:50%;
-	transform:translateX(-50%);
-	top:72px;
-	color:#37474f;
+.btn-servicios a{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
-
-#servicios .servicios__linea{
-	position:absolute;
-	left:50%;
-	transform:translateX(-40px);
-	top:140px;
-	width: 70px;
-	height: 4px;
-	background-color:#999;
-}
-
-#servicios .servicio{
-	margin-top:20px;
-	width: 320px;
-	min-height: 250px;
-	box-sizing:border-box;
-	padding:15px;
-
-	/*outline:1px solid black;*/
-}
-
-
-#servicios .servicio div{
-	font-size:25px;
-	width: 60px;
-	height: 60px;
-	line-height:60px;
-	text-align:center;
-	color:white;
-	margin-right:7px;
-	border-radius:50%;
-	display:inline-block;
-}
-
-#servicios p{
-	padding-top: 15px;
-	font-weight: 300;
-}
-
 
 .arqui{
 	background-color:#9c27b0;
