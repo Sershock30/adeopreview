@@ -1196,8 +1196,11 @@ footer{
 	padding:10px;
 	height: 400px;
 	margin:0px !important;
+	color:white;
 }
-
+.footer__padding{
+	padding: 15px 50px;
+}
 .footer__section{
 	margin-left:15px;
 	float:left;
@@ -1227,9 +1230,9 @@ footer .icon{
 	margin:10px;
 }
 
-footer .mapa{
+/*footer .mapa{
 	margin-top:50px;
-}
+}*/
 
 .copy{
 	background-color:#333;
@@ -1275,6 +1278,9 @@ ul{
 @media (max-width:1080px) {
 	#c-slider .content section h1{
 		display:none;
+	}
+	.mapa{
+		display: none;
 	}
 }
 
